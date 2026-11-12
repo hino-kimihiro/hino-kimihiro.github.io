@@ -240,82 +240,548 @@
     {
       "id": 1,
       "citation": "磯山亜純・橋本成仁・氏原岳人・樋野公宏・渡邊詩穏「小学生の登校時における通学行動と移動自由性の関連性 同伴者形態に着目して」都市計画論文集, 61(3), 1896–1902, 2026年10月.",
-      "doi": "10.11361/journalcpij.61.1896"
+      "doi": "10.11361/journalcpij.61.1896",
+      "source_order": 1
     },
     {
       "id": 2,
       "citation": "小谷木英資・西颯人・長谷川大輔・樋野公宏・持橋大地「マンション広告テキストが訴求する地域イメージの抽出とその空間分布 首都圏を対象とした統計的トピック分析」都市計画論文集, 61(3), 1753–1759, 2026年10月.",
-      "doi": "10.11361/journalcpij.61.1753"
+      "doi": "10.11361/journalcpij.61.1753",
+      "source_order": 2
     },
     {
       "id": 3,
       "citation": "興美咲子・雨宮護・西颯人・樋野公宏・渡邉泰洋・守山正「特殊詐欺における阻止事案発生の実態と地域の社会環境との関連」都市計画論文集, 61(3), 1653–1660, 2026年10月.",
-      "doi": "10.11361/journalcpij.61.1653"
+      "doi": "10.11361/journalcpij.61.1653",
+      "source_order": 3
     },
     {
       "id": 4,
       "citation": "吉田拓司・長谷川大輔・樋野公宏・山田育穂・浅見泰司「スタートアップ集積自治体におけるエコシステムの成熟過程に関する研究 成長段階構成比と退出形態に着目した時系列分析」都市計画論文集, 61(3), 871–878, 2026年10月.",
-      "doi": "10.11361/journalcpij.61.871"
+      "doi": "10.11361/journalcpij.61.871",
+      "source_order": 4
     },
     {
       "id": 5,
       "citation": "利田有輝人・西颯人・貞広幸雄・樋野公宏・長谷川大輔「星空環境の都市政策による改善可能性 夜空の明るさと都市の物的環境の関係に注目して」都市計画論文集, 61(3), 864–870, 2026年10月.",
-      "doi": "10.11361/journalcpij.61.864"
+      "doi": "10.11361/journalcpij.61.864",
+      "source_order": 5
     },
     {
       "id": 6,
       "citation": "Hongjik Kim, Kimihiro Hino, Franz Fuerst, Chihiro Shimizu, “Neighborhood change and physical activity in later life: A quasi-natural experiment on amenity loss in Japan”, Journal of Transport & Health 51, 102418, 2026.",
-      "doi": "10.1016/j.jth.2026.102418"
+      "doi": "10.1016/j.jth.2026.102418",
+      "source_order": 6
     },
     {
       "id": 7,
       "citation": "中迫由実・瀬渡章子・雨宮護・樋野公宏「ICTによる子どもの見守りに対する保護者の評価と課題−子ども見守りサービス『オッタバイ』の事例−」日本建築学会技術報告集, 32(82), 1356–1361, 2026年10月.",
-      "doi": "10.3130/aijt.32.1356"
+      "doi": "10.3130/aijt.32.1356",
+      "source_order": 7
     },
     {
       "id": 8,
       "citation": "Takumi Abe, Takemi Sugiyama, Neville Owen, Kimihiro Hino, “Does a walking intervention work equally in low and high walkable areas? A large-scale incentive program in Japan”, International Journal of Behavioral Nutrition and Physical Activity, 23, 88, 2026.",
-      "doi": "10.1186/s12966-026-01946-5"
+      "doi": "10.1186/s12966-026-01946-5",
+      "source_order": 8
     },
     {
       "id": 9,
       "citation": "Kazuaki Arai, Masamitsu Kamada, Takahiro Yoshida, Ikuho Yamada, Ding Ding, Kimihiro Hino, “Cross-level regional and socioeconomic inequalities in step counts: a descriptive epidemiological investigation of 1.5 million Japanese smartphone users”, The Lancet Regional Health – Western Pacific, 72, 101901, 2026.",
-      "doi": "10.1016/j.lanwpc.2026.101901"
+      "doi": "10.1016/j.lanwpc.2026.101901",
+      "source_order": 9
     },
     {
       "id": 10,
       "citation": "Erli Zeng, Kimihiro Hino, Yinan Chen, Nan He, “Toward sustainable active school travel: A systematic umbrella review highlighting correlates and interventions”, Cities 175, 107177, 2026.",
-      "doi": "10.1016/j.cities.2026.107177"
+      "doi": "10.1016/j.cities.2026.107177",
+      "source_order": 10
     },
     {
       "id": 11,
       "citation": "小林寛・樋野公宏・浅見泰司「洋上風力発電の地域共生を目的とした基金の法的性質と財源規律 再エネ海域利用法の制度構造を考慮した行政法学的分析」都市計画論文集, 61(1), 109–124, 2026年4月.",
-      "doi": "10.11361/journalcpij.61.109"
+      "doi": "10.11361/journalcpij.61.109",
+      "source_order": 11
     },
     {
       "id": 12,
       "citation": "Beibei Zhang, Kimihiro Hino, Hayato Nishi, “Financialized Loss: The Hidden Frontier of Housing Financialization”, Urban Science 10(4), 190, 2026.",
-      "doi": "10.3390/urbansci10040190"
+      "doi": "10.3390/urbansci10040190",
+      "source_order": 12
     },
     {
       "id": 13,
       "citation": "廣瀬暖・橋本成仁・海野遥香・氏原岳人・樋野公宏「小学生の登校時における家族による送迎行動と地域特性の関連に関する研究」交通工学論文集, 12(2), A_176–A_186, 2026年2月.",
-      "doi": "10.14954/jste.12.2_A_176"
+      "doi": "10.14954/jste.12.2_A_176",
+      "source_order": 13
     },
     {
       "id": 14,
       "citation": "成澤拓実・浅見泰司・樋野公宏・薄井宏行「母子世帯の居住地選択」日本建築学会計画系論文集, no.842, 869–875, 2026年4月.",
-      "doi": "10.3130/aija.91.869"
+      "doi": "10.3130/aija.91.869",
+      "source_order": 14
     },
     {
       "id": 15,
       "citation": "宮岸凌也・樋野公宏・西颯人・浅見泰司「郊外地域における買い物施設へのアクセシビリティと地価の関係の地域差」日本建築学会計画系論文集, no.842, 862–868, 2026年4月.",
-      "doi": "10.3130/aija.91.862"
+      "doi": "10.3130/aija.91.862",
+      "source_order": 15
     },
     {
       "id": 16,
       "citation": "Yangguang Xiao, Kojiro Sho, Yuya Shibuya, Kimihiro Hino, Shichen Zhao, Ronita Bardhan, “Nonlinear relationships between urban morphology, socioeconomic conditions, and infectious disease risk: evidence from COVID-19 in Tokyo”, Environmental Research: Health 4, 015008, 2026.",
-      "doi": "10.1088/2752-5309/ae44c1"
+      "doi": "10.1088/2752-5309/ae44c1",
+      "source_order": 16
+    },
+    {
+      "id": 17,
+      "citation": "小林寛・樋野公宏・浅見泰司「洋上風力発電に伴う地域共生基金をめぐる当事者の制度的正当性」都市計画論文集 60(3), 697–704, 2025年.",
+      "doi": "10.11361/journalcpij.60.697",
+      "source_order": 17
+    },
+    {
+      "id": 18,
+      "citation": "廣瀬暖・橋本成仁・海野遥香・氏原岳人・樋野公宏「小学生の登校時における家族の送迎行動の実態に関する研究」都市計画論文集 60(3), 900–907, 2025年.",
+      "doi": "10.11361/journalcpij.60.900",
+      "source_order": 18
+    },
+    {
+      "id": 19,
+      "citation": "山口颯斗・大草裕樹・小谷木英資・樋野公宏「市区町村レベルにおける平均歩数の男女差と産業・就業構造」都市計画論文集 60(3), 1643–1649, 2025年.",
+      "doi": "10.11361/journalcpij.60.1643",
+      "source_order": 19
+    },
+    {
+      "id": 20,
+      "citation": "柳田徹郎・樋野公宏・浅見泰司「環境過敏症自訴者の住まい確保の現状と民間賃貸住宅への受入れ可能性」日本建築学会計画系論文集, no.831, 1030–1035, 2025年5月.",
+      "doi": "10.3130/aija.90.1030",
+      "source_order": 20
+    },
+    {
+      "id": 21,
+      "citation": "Zhen Du, Koryu Sato, Kimihiro Hino, Katsunori Kondo, Naoki Kondo, “Gender, socioeconomic, and built environment differences in the association of participation in an incentivized walking program with physical and social activity: A prospective cohort study among older adults in Japan”, Social Science & Medicine 377, 118093, 2025.",
+      "doi": "10.1016/j.socscimed.2025.118093",
+      "source_order": 21
+    },
+    {
+      "id": 22,
+      "citation": "Erli Zeng, Kimihiro Hino, Akane Bessho, “Key Factors of Independent Active School Travel in Chiba, Japan: Focusing on Crime Safety and Community Initiatives”, Travel Behaviour and Society 40, 101036, 2025.",
+      "doi": "10.1016/j.tbs.2025.101036",
+      "source_order": 22
+    },
+    {
+      "id": 23,
+      "citation": "安部孝文・鎌田真光・北湯口純・山北満哉・花里真道・樋野公宏「小学校におけるスクールバスの徒歩区間設定の実装過程と促進・阻害要因: 実装研究のための統合フレームワーク（CFIR）に基づく質的研究」体育学研究 70, 329–343, 2025年.",
+      "doi": "10.5432/jjpehss.022-24099",
+      "source_order": 23
+    },
+    {
+      "id": 24,
+      "citation": "Yuki Okazawa, Kimihiro Hino, Yasushi Asami, “Photovoltaic power plant installation in the Tokyo metropolitan area, Japan, focusing on land use and regulatory ordinances”, Land Use Policy 152, 107495, 2025.",
+      "doi": "10.1016/j.landusepol.2025.107495",
+      "source_order": 24
+    },
+    {
+      "id": 25,
+      "citation": "今井巧・雨宮護・島田貴仁・樋野公宏・柴田久「子供の前兆事案被害情報の主体間共有の実態」都市計画論文集 59(3), 1549–1556, 2024年.",
+      "doi": "10.11361/journalcpij.59.1549",
+      "source_order": 25
+    },
+    {
+      "id": 26,
+      "citation": "香嶋愛美・雨宮護・樋野公宏「時空間データにみる新たな地域防犯活動としての『ながら見守り』の特性」都市計画論文集 59(3), 547–554, 2024年.",
+      "doi": "10.11361/journalcpij.59.547",
+      "source_order": 26
+    },
+    {
+      "id": 27,
+      "citation": "Kanta Sayuda, Hiroyuki Usui, Yasushi Asami, Kimihiro Hino, “Contiguity of underutilized lands: Dynamic simulation taking their temporary uses into account”, Environment and Planning B: Urban Analytics and City Science, 2024.",
+      "doi": "10.1177/23998083241265735",
+      "source_order": 27
+    },
+    {
+      "id": 28,
+      "citation": "玉田大・樋野公宏・浅見泰司「生育環境と空間認知の関係」日本建築学会計画系論文集, no.822, 1486–1493, 2024年8月.",
+      "doi": "10.3130/aija.89.1486",
+      "source_order": 28
+    },
+    {
+      "id": 29,
+      "citation": "福西厚子・町田征己・菊池宏幸・小田切優子・高宮朋子・福島教照・天笠志保・中谷友樹・樋野公宏・井上茂「身体活動の視点から見た通勤手段の実態と活動的な通勤への切替可能性：地域別の記述疫学研究」産業衛生学雑誌, 2023年（早期公開）.",
+      "doi": "10.1539/sangyoeisei.2023-014-E",
+      "source_order": 29
+    },
+    {
+      "id": 30,
+      "citation": "衣笠匠斗・樋野公宏・別所あかね・貞広幸雄「集約型都市政策下での食料品店舗への近接性の時系列変化」都市計画論文集 58(3), 735–742, 2023年.",
+      "doi": "10.11361/journalcpij.58.735",
+      "source_order": 30
+    },
+    {
+      "id": 31,
+      "citation": "和田吉史・浅見泰司・樋野公宏・鈴木雅智「都市経済モデルを使用したテレワーク用ワーキングスペースの有無による市街地構造の違いの分析」都市計画論文集 58(3), 562–569, 2023年.",
+      "doi": "10.11361/journalcpij.58.562",
+      "source_order": 31
+    },
+    {
+      "id": 32,
+      "citation": "Hongjik Kim, Hiroki Baba, Chihiro Shimizu, Kimihiro Hino, “The relationship of single-family detached house prices with neighborhood walkability and disaster risk”, PLoS ONE 18(10), e0292657, 2023.",
+      "doi": "10.1371/journal.pone.0292657",
+      "source_order": 32
+    },
+    {
+      "id": 33,
+      "citation": "Keisuke Sakamoto, Kimihiro Hino, Masamichi Hanazato, Yasushi Asami, Katsunori Kondo, “Associations between older adults’ going-out frequency and land price of neighbourhoods: potency of land price as an indicator of homebound tendency”, Archives of Gerontology and Geriatrics 116, 105150, 2023.",
+      "doi": "10.1016/j.archger.2023.105150",
+      "source_order": 33
+    },
+    {
+      "id": 34,
+      "citation": "Wataru Morioka, Mei-Po Kwan, Kimihiro Hino, Ikuho Yamada, “How accessibility to neighborhood grocery stores is related to older people's walking behavior: A study of Yokohama, Japan”, Journal of Transport & Health 32, 101668, 2023.",
+      "doi": "10.1016/j.jth.2023.101668",
+      "source_order": 34
+    },
+    {
+      "id": 35,
+      "citation": "Yilin Huang, Kimihiro Hino, Yasushi Asami, Hiroyuki Usui, Miku Nakajima, “Fear of street crime among Japanese mothers with elementary school children: A questionnaire survey using street montage photographs”, Journal of Asian Architecture and Building Engineering 23(1), 443–452, 2024.",
+      "doi": "10.1080/13467581.2023.2228931",
+      "source_order": 35
+    },
+    {
+      "id": 36,
+      "citation": "Narushige Shiode, Shino Shiode, Hayato Nishi, Kimihiro Hino, “Seasonal characteristics of crime: an empirical investigation of the temporal fluctuation of the different types of crime in London”, Computational Urban Science 3, 19, 2023.",
+      "doi": "10.1007/s43762-023-00094-x",
+      "source_order": 36
+    },
+    {
+      "id": 37,
+      "citation": "塩崎洸・山田康祐・大嵜一輝・杉浦完征・薄井宏行・樋野公宏「自治体による公共トイレの配置計画の比較分析―シミュレーションによる配置方針別のアクセシビリティ評価」都市計画論文集 58(1), 48–57, 2023年.",
+      "doi": "10.11361/journalcpij.58.48",
+      "source_order": 37
+    },
+    {
+      "id": 38,
+      "citation": "Hiroshi Morita, Kimihiro Hino, Wataru Morioka, Ikuho Yamada, “Changes in the residents’ step counts before and after a railway improvement project”, Journal of Transport & Health 30, 101608, 2023.",
+      "doi": "10.1016/j.jth.2023.101608",
+      "source_order": 38
+    },
+    {
+      "id": 39,
+      "citation": "森田洋史・樋野公宏・山田育穂「最寄り鉄道駅の利便性と居住者の歩数との関係」日本建築学会計画系論文集, no.812, 2782–2788, 2023年10月.",
+      "doi": "10.3130/aija.88.2782",
+      "source_order": 39
+    },
+    {
+      "id": 40,
+      "citation": "岡澤由季・別所あかね・樋野公宏・浅見泰司「太陽光発電に転用される農地の社会経済的特徴―千葉県における農地の変化に着目して」日本建築学会計画系論文集, no.807, 1682–1689, 2023年5月.",
+      "doi": "10.3130/aija.88.1682",
+      "source_order": 40
+    },
+    {
+      "id": 41,
+      "citation": "Yoshifumi Wada, Yasushi Asami, Kimihiro Hino, Hayato Nishi, Shino Shiode, Narushige Shiode, “Road Junction Configurations and the Severity of Traffic Accidents in Japan”, Sustainability 15(3), 2722, 2023.",
+      "doi": "10.3390/su15032722",
+      "source_order": 41
+    },
+    {
+      "id": 42,
+      "citation": "Akiko Iida, Takahiro Yamazaki, Kimihiro Hino, Makoto Yokohari, “Urban agriculture in walkable neighborhoods bore fruit for health and food system resilience during the COVID-19 pandemic”, npj Urban Sustainability 3, 4, 2023.",
+      "doi": "10.1038/s42949-023-00083-3",
+      "source_order": 42
+    },
+    {
+      "id": 43,
+      "citation": "由利泰蔵・樋野公宏・山田育穂・森岡渉「地域の近隣環境および交通行動特性と住民の歩数との関係」日本建築学会計画系論文集, no.803, 231–236, 2023年1月.",
+      "doi": "10.3130/aija.88.231",
+      "source_order": 43
+    },
+    {
+      "id": 44,
+      "citation": "塩崎洸・浅見泰司・樋野公宏・薄井宏行・武藤祥郎「コロナ禍における小地域の人口変動要因の変化」日本建築学会計画系論文集, no.803, 224–230, 2023年1月.",
+      "doi": "10.3130/aija.88.224",
+      "source_order": 44
+    },
+    {
+      "id": 45,
+      "citation": "蜂須康介・雨宮護・樋野公宏「公園における子供・女性を被害者とする脅威事案の発生実態および接道性との関連」都市計画論文集 57(3), 1447–1452, 2022年10月.",
+      "doi": "10.11361/journalcpij.57.1447",
+      "source_order": 45
+    },
+    {
+      "id": 46,
+      "citation": "岡澤由季・樋野公宏・浅見泰司「静岡県掛川市の住宅団地における住宅用太陽光発電の導入要因」都市計画論文集 57(3), 1049–1055, 2022年10月.",
+      "doi": "10.11361/journalcpij.57.1049",
+      "source_order": 46
+    },
+    {
+      "id": 47,
+      "citation": "Hongjik Kim, Kimihiro Hino, Yasushi Asami, Naoki Kondo, “Neighborhood effect of geographical distribution of urban facilities on older adults' participation in hobby and sports groups”, Cities 131, 103903, 2022.",
+      "doi": "10.1016/j.cities.2022.103903",
+      "source_order": 47
+    },
+    {
+      "id": 48,
+      "citation": "Masatomo Suzuki, Kimihiro Hino, Sachio Muto, “Negative externalities of long-term vacant homes: Evidence from Japan”, Journal of Housing Economics 57, 101856, 2022.",
+      "doi": "10.1016/j.jhe.2022.101856",
+      "source_order": 48
+    },
+    {
+      "id": 49,
+      "citation": "Hongjik Kim, Hiroyuki Usui, Yasushi Asami, Kimihiro Hino, “A simulation of allocation of participants engaging in group activities at community salons: Accessibility and self-stigma”, Social Science & Medicine, online 2021.",
+      "doi": "10.1016/j.socscimed.2021.114547",
+      "source_order": 49
+    },
+    {
+      "id": 50,
+      "citation": "高瀬大樹・南部世紀夫・樋野公宏・田中賢「周辺環境の客観的指標による犯罪不安感の推定手法の提案―夜間の大学キャンパスを対象として」日本建築学会計画系論文集, no.792, 329–336, 2022年2月.",
+      "doi": "10.3130/aija.87.329",
+      "source_order": 50
+    },
+    {
+      "id": 51,
+      "citation": "杉浦完征・樋野公宏・浅見泰司・山田育穂「鉄道駅周辺における環境要因と自転車盗発生との関係」日本建築学会計画系論文集, no.791, 123–132, 2022年1月.",
+      "doi": "",
+      "source_order": 51
+    },
+    {
+      "id": 52,
+      "citation": "Hiroshi Morita, Kimihiro Hino, Ikuho Yamada, Hiroyuki Usui, Taku Nohara, Yasushi Asami, “Association between neighborhood living environment and step counts of middle-aged and older adults: Focusing on street systems from the perspective of traffic safety”, Japan Architectural Review, first published 28 November 2022. 和文原著：森田洋史・樋野公宏・山田育穂・薄井宏行・野原卓・浅見泰司「近隣住環境と中高齢者との歩数の関係―交通安全性の観点から街路構成に着目して―」日本建築学会計画系論文集, no.791, 133–139, 2022年1月.",
+      "doi": "10.1002/2475-8876.12323",
+      "source_order": 52
+    },
+    {
+      "id": 53,
+      "citation": "岡澤由季・樋野公宏・浅見泰司「太陽光発電事業の立地と規制との関係―福岡県・大分県の市部における規制条例制定・ガイドライン策定状況に着目して」都市計画論文集 56(3), 571–578, 2021年11月.",
+      "doi": "",
+      "source_order": 53
+    },
+    {
+      "id": 54,
+      "citation": "Takahiro Yamazaki, Akiko Iida, Kimihiro Hino, Akito Murayama, U Hiroi, Toru Terada, Hideki Koizumi, Makoto Yokohari, “Use of Urban Green Spaces in the Context of Lifestyle Changes during the COVID-19 Pandemic in Tokyo”, Sustainability 13(17), 9817, 2021.",
+      "doi": "10.3390/su13179817",
+      "source_order": 54
+    },
+    {
+      "id": 55,
+      "citation": "Tatsuya Sekiguchi, Kimihiro Hino, “How Mobile Grocery Sales Wagons Can Help Disadvantaged Shoppers in Residential Areas Around Central Tokyo: Characteristics of Spatial Distribution of Usage Places and Purchased Items”, Sustainability 13(5), 2634, 2021.",
+      "doi": "10.3390/su13052634",
+      "source_order": 55
+    },
+    {
+      "id": 56,
+      "citation": "Kentaro Harada, Kimihiro Hino, Akiko Iida, Takahiro Yamazaki, Hiroyuki Usui, Yasushi Asami, Makoto Yokohari, “How Does Urban Farming Benefit Participants’ Health? A Case Study of Allotments and Experience Farms in Tokyo”, International Journal of Environmental Research and Public Health 18(2), 542, 2021.",
+      "doi": "10.3390/ijerph18020542",
+      "source_order": 56
+    },
+    {
+      "id": 57,
+      "citation": "関口達也・樋野公宏「食料品の買い物環境に対する多様な主観的評価が購買行動や食品摂取に及ぼす影響―東京都心縁辺部の高経年住宅団地を対象としたアンケート調査に基づいて」都市計画論文集 55(3), 1013–1020, 2020年11月.",
+      "doi": "",
+      "source_order": 57
+    },
+    {
+      "id": 58,
+      "citation": "由利泰蔵・樋野公宏・薄井宏行・浅見泰司「横浜市民の居住環境と歩行強度との関係」日本建築学会計画系論文集, no.776, 2209–2216, 2020年10月.",
+      "doi": "",
+      "source_order": 58
+    },
+    {
+      "id": 59,
+      "citation": "宮川大輝・樋野公宏「遊歩道整備が周辺居住高齢者の歩数に与える影響」日本建築学会計画系論文集, no.776, 2201–2208, 2020年10月.",
+      "doi": "",
+      "source_order": 59
+    },
+    {
+      "id": 60,
+      "citation": "Hongjik Kim, Kimihiro Hino, Yoshinori Fujiwara, “The relationship between the participation of Japanese older adults in various activities and neighborhood environment”, Journal of Housing and the Built Environment, accepted June 2020.",
+      "doi": "10.1007/s10901-020-09760-6",
+      "source_order": 60
+    },
+    {
+      "id": 61,
+      "citation": "岡澤由季・樋野公宏・浅見泰司「九州電力管内における太陽光発電事業の立地要因」日本建築学会計画系論文集, no.774, 1751–1759, 2020年8月.",
+      "doi": "",
+      "source_order": 61
+    },
+    {
+      "id": 62,
+      "citation": "金洪稷・樋野公宏・薄井宏行・花里真道・高木大資・近藤尚己・近藤克則「高齢者の趣味活動・スポーツ参加と近隣施設密度の関係：名古屋市におけるJAGESのパネルデータを用いて」都市計画論文集 54(3), 1490–1495, 2019年11月.",
+      "doi": "",
+      "source_order": 62
+    },
+    {
+      "id": 63,
+      "citation": "馬場弘樹・樋野公宏「大規模住宅団地における建物除却後の跡地現況と建物除却計画・将来方針の対応関係―ベルリン市マルツァーン・ヘラーズドルフ団地を対象として―」都市計画論文集 54(2), 163–170, 2019年.",
+      "doi": "",
+      "source_order": 63
+    },
+    {
+      "id": 64,
+      "citation": "薄井宏行・樋野公宏「高齢者の歩行特性を考慮した休憩施設の密度と最長継続歩行距離―東京駅および大手町駅周辺地区を対象に―」日本建築学会計画系論文集, no.762, 1779–1787, 2019年8月.",
+      "doi": "",
+      "source_order": 64
+    },
+    {
+      "id": 65,
+      "citation": "Hiroki Baba, Kimihiro Hino, “Factors and tendencies of housing abandonment: An analysis of a survey of vacant houses in Kawaguchi City, Saitama”, Japan Architectural Review, first published 26 April 2019. 和文原著：馬場弘樹・樋野公宏「空き家の管理不全要因とその傾向―川口市空き家実態調査の分析」日本建築学会計画系論文集, no.749, 1263–1271, 2018年7月.",
+      "doi": "10.1002/2475-8876.12088",
+      "source_order": 65
+    },
+    {
+      "id": 66,
+      "citation": "関口達也・樋野公宏・石井儀光「遠郊外住宅団地における買い物支援策に関する一考察―埼玉県日高市こま武蔵台を対象とした食料品の購買行動・意識調査の解析から」日本建築学会計画系論文集, no.760, 1423–1432, 2019年6月.",
+      "doi": "",
+      "source_order": 66
+    },
+    {
+      "id": 67,
+      "citation": "坂本將・安藤真太朗・樋野公宏「地方郊外における後期高齢者の居場所と要介護リスクの関連分析」日本建築学会環境系論文集, no.760, 577–586, 2019年6月.",
+      "doi": "",
+      "source_order": 67
+    },
+    {
+      "id": 68,
+      "citation": "山村俊貴・樋野公宏・上杉昌也・雨宮護「東京都区部における性犯罪の前兆事案と街路ネットワークの関係―Urban Network Analysis指標に着目して―」GIS―理論と応用 27(1), 33–42, 2019年3月.",
+      "doi": "",
+      "source_order": 68
+    },
+    {
+      "id": 69,
+      "citation": "宮川大輝・浅見泰司・樋野公宏・對間昌宏・薄井宏行「東京都区部における建物更新の起こりやすさと住環境―建物・立地・居住者等に着目して―」都市計画論文集 53(3), 1485–1490, 2018年11月.",
+      "doi": "",
+      "source_order": 69
+    },
+    {
+      "id": 70,
+      "citation": "濱田貴之・樋野公宏・石井儀光「大規模高層団地に居住する高齢者の歩数と建造環境との関係―UR高島平団地を対象に―」都市計画論文集 53(3), 1523–1528, 2018年11月.",
+      "doi": "",
+      "source_order": 70
+    },
+    {
+      "id": 71,
+      "citation": "村中大輝・雨宮護・樋野公宏「地方自治体による監視性の確保を目的とした防犯施策の計測と評価―つくば市中心部における事例研究―」都市計画論文集 53(3), 1537–1543, 2018年11月.",
+      "doi": "",
+      "source_order": 71
+    },
+    {
+      "id": 72,
+      "citation": "薄井宏行・樋野公宏「継続歩行距離と休憩施設の密度基準―東京駅および大手町駅周辺地区を対象に―」日本建築学会計画系論文集, no.748, 1049–1056, 2018年6月.",
+      "doi": "",
+      "source_order": 72
+    },
+    {
+      "id": 73,
+      "citation": "上杉昌也・樋野公宏「街区および近隣スケールにおける犯罪発生の環境要因―東京都杉並区の空き巣を対象としたマルチレベル分析―」地理学評論 91(3), 1–18, 2018年.",
+      "doi": "",
+      "source_order": 73
+    },
+    {
+      "id": 74,
+      "citation": "鈴木雅智・樋野公宏「東京近郊の自治体における条件有利な長期放置空き家の実態―埼玉県川口市空き家実態調査の分析」日本建築学会計画系論文集, no.746, 725–733, 2018年4月.",
+      "doi": "",
+      "source_order": 74
+    },
+    {
+      "id": 75,
+      "citation": "矢田絃馬・瀬田史彦・樋野公宏・城所哲夫「外あそび空間へのアクセシビリティがこどものあそび行為に与える影響：屋内外嗜好性と電子―実体験嗜好性の観点から」土木学会論文集D3（土木計画学）74, 101–110, 2018年3月.",
+      "doi": "",
+      "source_order": 75
+    },
+    {
+      "id": 76,
+      "citation": "上杉昌也・樋野公宏・矢野桂司「ジオデモグラフィクスによる社会地区類型を活用した窃盗犯の発生要因に関する小地域分析」E-journal GEO 13(1), 11–23, 2018年3月.",
+      "doi": "",
+      "source_order": 76
+    },
+    {
+      "id": 77,
+      "citation": "増田耕平・貞広幸雄・樋野公宏・薄井宏行「植木鉢の表出を促す道路空間の物的環境要因」日本建築学会計画系論文集, no.745, 447–453, 2018年3月.",
+      "doi": "",
+      "source_order": 77
+    },
+    {
+      "id": 78,
+      "citation": "金洪稜・樋野公宏・浅見泰司「高齢者の社会参加による社会的効果」都市計画論文集 52(3), 1304–1311, 2017年11月.",
+      "doi": "",
+      "source_order": 78
+    },
+    {
+      "id": 79,
+      "citation": "森克美・李廷秀・浅見泰司・樋野公宏・渡辺悦子「地域の物理的環境と移動に伴う歩行時間との関連」厚生の指標 64(6), 1–8, 2017年6月.",
+      "doi": "",
+      "source_order": 79
+    },
+    {
+      "id": 80,
+      "citation": "Masahiro Taima, Yasushi Asami, Kimihiro Hino, “The relation between block size and building shape”, Environment and Planning B: Urban Analytics and City Science 46(1), 103–121, 2019 (online 2017).",
+      "doi": "",
+      "source_order": 80
+    },
+    {
+      "id": 81,
+      "citation": "對間昌宏・浅見泰司・樋野公宏・森岡渉「東京都心商業地域における街区内の建蔽部分の規定要因とその推定」GIS―理論と応用 24(2), 85–96, 2016年12月.",
+      "doi": "",
+      "source_order": 81
+    },
+    {
+      "id": 82,
+      "citation": "関口達也・樋野公宏・石井儀光「店舗の質・距離に対する満足度を用いた高齢者の食料品の購買行動分析」都市計画論文集 51(3), 372–379, 2016年11月.",
+      "doi": "",
+      "source_order": 82
+    },
+    {
+      "id": 83,
+      "citation": "木下広章・柴田久・石橋知也・雨宮護・樋野公宏「コンビニエンスストアにおける犯罪発生状況と防犯施策に関する考察―福岡県警察犯罪予防研究アドバイザー制度を通して―」都市計画論文集 51(3), 350–356, 2016年11月.",
+      "doi": "",
+      "source_order": 83
+    },
+    {
+      "id": 84,
+      "citation": "望月悦子・寺木彰浩・樋野公宏「街路灯の光源種類が歩行者の視環境に与える影響―津田沼南口商店会の街路灯改修（水銀灯からLEDランプへ）の効果検証」日本建築学会環境系論文集, no.724, 513–522, 2016年6月.",
+      "doi": "",
+      "source_order": 84
+    },
+    {
+      "id": 85,
+      "citation": "上杉昌也・樋野公宏「東京都区部における住宅侵入盗と近隣社会経済的特性の関係」都市計画論文集 50(3), 608–615, 2015年11月.",
+      "doi": "",
+      "source_order": 85
+    },
+    {
+      "id": 86,
+      "citation": "柳澤恵・伊香賀俊治・安藤真太朗・樋野公宏・星旦二「住宅の温熱環境及び断熱性能による身体活動への影響」日本建築学会環境系論文集, no.716, 985–992, 2015年10月.",
+      "doi": "",
+      "source_order": 86
+    },
+    {
+      "id": 87,
+      "citation": "加藤真司・桑沢保夫・石井儀光・樋野公宏・橋本剛・小木曽裕・持田太樹「緑のカーテンの有無が人体の心理反応に及ぼす影響」日本緑化工学会誌 39(1), 3–8, 2013年8月.",
+      "doi": "",
+      "source_order": 87
+    },
+    {
+      "id": 88,
+      "citation": "淡島正憲・柴田久・樋野公宏・雨宮護・石橋知也「屋外環境改善を目指した大学参加による防犯まちづくりの取り組み―福岡大学周辺における公園の防犯診断を事例として」都市計画論文集 47(3), 967–972, 2012年11月.",
+      "doi": "",
+      "source_order": 88
+    },
+    {
+      "id": 89,
+      "citation": "松村博文・樋野公宏・石井儀光・寺内義典・雨宮護・橋本成仁「積雪寒冷地における防犯環境の特性に関する考察」都市計画論文集 46(3), 955–960, 2011年11月.",
+      "doi": "",
+      "source_order": 89
+    },
+    {
+      "id": 90,
+      "citation": "小島隆矢・若林直子・眞方山美穂・樋野公宏・布田健「住居・地域の安全・安心についての意識と対策行動に関する統計的因果分析」日本建築学会総合論文誌 7, 104–109, 2009年1月.",
+      "doi": "",
+      "source_order": 90
+    },
+    {
+      "id": 91,
+      "citation": "雨宮護・樋野公宏・小島隆矢・横張真「批判論の論点と市民の態度からみたわが国の防犯まちづくりの課題」都市計画論文集 42(3), 691–696, 2007年11月.",
+      "doi": "",
+      "source_order": 91
     }
   ]
 }
