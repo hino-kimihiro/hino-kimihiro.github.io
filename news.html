@@ -1,0 +1,11 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="News archive of Kimihiro Hino"><title>News | Kimihiro Hino</title><link rel="stylesheet" href="/assets/style.css"></head>
+<body><header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav><a href="/">Home</a><a href="/news.html" aria-current="page">News</a></nav></div></header>
+<main class="wrap archive"><p class="kicker">Archive</p><h1>News <span lang="ja">／ お知らせ</span></h1><p class="intro">過去のお知らせを新しい順に掲載しています。</p><ul class="line-list news-list">
+{% for item in site.data.news %}
+<li><time class="date"{% if item.date.size == 10 %} datetime="{{ item.date }}"{% endif %}>{{ item.display_date | default: item.date }}</time>{% if item.url %}<a href="{{ item.url | escape }}">{{ item.title | escape }}</a>{% else %}{{ item.title | escape }}{% endif %}</li>
+{% endfor %}
+</ul><p class="archive-link"><a href="/">← Back to home</a></p></main><footer><div class="wrap">© {{ site.time | date: '%Y' }} Kimihiro Hino · The University of Tokyo</div></footer></body></html>
