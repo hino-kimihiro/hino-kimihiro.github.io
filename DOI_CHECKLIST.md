@@ -2,9 +2,6 @@
 
 This record keeps track of publications for which no DOI was confirmed during the website migration. A blank DOI does not establish that no DOI exists.
 
-- **First author #33**: 樋野公宏「花づくりを通じた見守り活動の実証実験－安城市における『見守りフラワーポット大作戦』を対象に－」日本建築学会住宅系研究報告会論文集, no.5, 49–54, 2010年12月.
-  - Status: DOI not confirmed
-
 - **First author #45**: 樋野公宏「地域住民と協働して行なう商店街宅配サービス事業に関する研究」計画行政, no.27(2), 62–70, 2004年6月.
   - Status: DOI not confirmed
 
