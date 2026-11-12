@@ -2,8 +2,10 @@
 
 This is a working list of citations for which a DOI has **not yet been independently confirmed**. Conference abstracts, internal reports, and other proceedings may never have been assigned a DOI. Absence from the website is not proof that no DOI exists. Updated 2026-11-12.
 
-Total entries: 134. DOI recorded: 18. DOI not yet confirmed: 116.
+Total entries: 135. DOI recorded: 18. DOI not yet confirmed: 117.
 
+- **First author #21**: 樋野公宏「花づくりを通じた見守り活動の実証実験－安城市における「見守りフラワーポット大作戦」を対象に－」日本建築学会住宅系研究報告会論文集, no.5, 49–54, 2009年12月.
+  - Status: DOI not confirmed; printed publication year needs confirmation (AIJ archive lists no.5 as 2010).
 - **First author #5**: 樋野公宏「世代ミックスの空間スケールを考える」日本建築学会大会「多世代共創に向けた建築・都市システム特別研究委員会」パネルディスカッション資料『多世代共創社会の構成軸とその分析スケール』21–22, 2018年9月.
 - **First author #6**: 樋野公宏・李廷秀・浅見泰司「よこはまウォーキングポイント事業参加者の歩数と近隣環境との関係」日本公衆衛生雑誌 64(10), 302, 2017年10月.
 - **First author #8**: 樋野公宏・李廷秀・浅見泰司「よこはまウォーキングポイント事業における地区別歩数と代表交通手段割合」日本公衆衛生雑誌 63(10), 243, 2016年10月.
