@@ -1,4 +1,7 @@
 # 新しいニュースを先頭に追加してください。日付は YYYY-MM-DD、年だけなら YYYY を使用。
+- date: '2026-10-31'
+  display_date: '2026.10.31'
+  title: '国土交通省・日本都市計画学会「海外の都市政策に関する研究発表会」において、飯田晶子先生のグループとして最優秀賞、吉野和泰先生のグループとして優秀賞を受賞しました。'
 - date: '2026-10-15'
   display_date: '2026.10.15'
   title: '防犯まちづくりガイド（Web版）を公開しました。'
@@ -7,7 +10,7 @@
   display_date: '2026.03.24'
   title: '住まいの防犯リフォームガイドが刊行されました。'
   url: 'https://www.j-reform.com/'
-- date: '2025'
-  display_date: '2025'
-  title: '参加するGlobal Observatory of Healthy and Sustainable Citiesが2025 Nobel Sustainability Trust Awardを受賞しました。'
+- date: '2025-12-05'
+  display_date: '2025.12.05'
+  title: 'Working Group Memberとして参加するGlobal Observatory of Healthy and Sustainable Citiesが2025 Nobel Sustainability Trust Awardを受賞しました。'
   url: 'https://www.nobelsustainabilitytrust.org/the-sustainability-award-2025'
