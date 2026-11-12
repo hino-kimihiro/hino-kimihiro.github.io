@@ -433,8 +433,10 @@
       "doi": "10.1016/j.jth.2026.102418",
       "source_order": 6,
       "corresponding_author": false,
-      "corresponding_authors": [],
-      "correspondence_status": "unverified"
+      "corresponding_authors": [
+        "Hongjik Kim"
+      ],
+      "correspondence_status": "user_confirmed"
     },
     {
       "id": 7,
@@ -573,8 +575,10 @@
       "doi": "10.1016/j.socscimed.2025.118093",
       "source_order": 21,
       "corresponding_author": false,
-      "corresponding_authors": [],
-      "correspondence_status": "unverified"
+      "corresponding_authors": [
+        "Koryu Sato"
+      ],
+      "correspondence_status": "user_confirmed"
     },
     {
       "id": 22,
@@ -601,8 +605,10 @@
       "doi": "10.1016/j.landusepol.2025.107495",
       "source_order": 24,
       "corresponding_author": false,
-      "corresponding_authors": [],
-      "correspondence_status": "unverified"
+      "corresponding_authors": [
+        "Yuki Okazawa"
+      ],
+      "correspondence_status": "user_confirmed"
     },
     {
       "id": 25,
@@ -626,8 +632,10 @@
       "doi": "10.1177/23998083241265735",
       "source_order": 27,
       "corresponding_author": false,
-      "corresponding_authors": [],
-      "correspondence_status": "unverified"
+      "corresponding_authors": [
+        "Kanta Sayuda"
+      ],
+      "correspondence_status": "user_confirmed"
     },
     {
       "id": 28,
@@ -817,8 +825,10 @@
       "doi": "10.1016/j.cities.2022.103903",
       "source_order": 47,
       "corresponding_author": false,
-      "corresponding_authors": [],
-      "correspondence_status": "unverified"
+      "corresponding_authors": [
+        "Hongjik Kim"
+      ],
+      "correspondence_status": "user_confirmed"
     },
     {
       "id": 48,
@@ -826,8 +836,10 @@
       "doi": "10.1016/j.jhe.2022.101856",
       "source_order": 48,
       "corresponding_author": false,
-      "corresponding_authors": [],
-      "correspondence_status": "unverified"
+      "corresponding_authors": [
+        "Masatomo Suzuki"
+      ],
+      "correspondence_status": "user_confirmed"
     },
     {
       "id": 49,
@@ -835,8 +847,10 @@
       "doi": "10.1016/j.socscimed.2021.114547",
       "source_order": 49,
       "corresponding_author": false,
-      "corresponding_authors": [],
-      "correspondence_status": "unverified"
+      "corresponding_authors": [
+        "Hongjik Kim"
+      ],
+      "correspondence_status": "user_confirmed"
     },
     {
       "id": 50,
@@ -1109,8 +1123,10 @@
       "doi": "10.1177/2399808317702897",
       "source_order": 80,
       "corresponding_author": false,
-      "corresponding_authors": [],
-      "correspondence_status": "unverified"
+      "corresponding_authors": [
+        "Masahiro Taima"
+      ],
+      "correspondence_status": "user_confirmed"
     },
     {
       "id": 81,
