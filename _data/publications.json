@@ -8,7 +8,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Journal of Physical Activity & Health"
     },
     {
       "id": 1,
@@ -18,7 +19,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Journal of Transport & Health"
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Journal of Transport & Health"
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Frontiers of Urban and Rural Planning"
     },
     {
       "id": 5,
@@ -62,7 +66,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Landscape and Urban Planning"
     },
     {
       "id": 8,
@@ -72,7 +77,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Cities"
     },
     {
       "id": 9,
@@ -82,7 +88,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Cities"
     },
     {
       "id": 11,
@@ -92,7 +99,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Journal of Asian Architecture and Building Engineering"
     },
     {
       "id": 10,
@@ -102,7 +110,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "International Journal of Behavioral Nutrition and Physical Activity"
     },
     {
       "id": 12,
@@ -112,7 +121,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Crime Prevention and Community Safety"
     },
     {
       "id": 13,
@@ -122,7 +132,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Health & Place"
     },
     {
       "id": 14,
@@ -132,7 +143,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Journal of Transport & Health"
     },
     {
       "id": 15,
@@ -142,7 +154,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "International Journal of Environmental Research and Public Health"
     },
     {
       "id": 16,
@@ -152,7 +165,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Cities"
     },
     {
       "id": 17,
@@ -162,7 +176,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "International Journal of Environmental Research and Public Health"
     },
     {
       "id": 18,
@@ -172,7 +187,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Journal of Medical Internet Research"
     },
     {
       "id": 19,
@@ -189,7 +205,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Environmental Hazards"
     },
     {
       "id": 21,
@@ -199,7 +216,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "International Journal of Law, Crime and Justice"
     },
     {
       "id": 22,
@@ -223,7 +241,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Urban Affairs Review"
     },
     {
       "id": 24,
@@ -233,7 +252,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Preventive Medicine Reports"
     },
     {
       "id": 26,
@@ -278,7 +298,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Built Environment"
     },
     {
       "id": 32,
@@ -436,7 +457,8 @@
       "corresponding_authors": [
         "Hongjik Kim"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Journal of Transport & Health"
     },
     {
       "id": 7,
@@ -456,7 +478,8 @@
         "Takumi Abe"
       ],
       "correspondence_source": "https://doi.org/10.1186/s12966-026-01946-5",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "International Journal of Behavioral Nutrition and Physical Activity"
     },
     {
       "id": 9,
@@ -468,7 +491,8 @@
         "Masamitsu Kamada"
       ],
       "correspondence_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13478815/",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "The Lancet Regional Health – Western Pacific"
     },
     {
       "id": 10,
@@ -479,7 +503,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Cities"
     },
     {
       "id": 11,
@@ -499,7 +524,8 @@
         "Beibei Zhang"
       ],
       "correspondence_source": "https://www.mdpi.com/2413-8851/10/4/190",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "Urban Science"
     },
     {
       "id": 13,
@@ -535,7 +561,8 @@
         "Kojiro Sho"
       ],
       "correspondence_source": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/c3915acd-26b7-4be7-984d-5455e9f8335c/content",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "Environmental Research: Health"
     },
     {
       "id": 17,
@@ -578,7 +605,8 @@
       "corresponding_authors": [
         "Koryu Sato"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Social Science & Medicine"
     },
     {
       "id": 22,
@@ -589,7 +617,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Travel Behaviour and Society"
     },
     {
       "id": 23,
@@ -608,7 +637,8 @@
       "corresponding_authors": [
         "Yuki Okazawa"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Land Use Policy"
     },
     {
       "id": 25,
@@ -635,7 +665,8 @@
       "corresponding_authors": [
         "Kanta Sayuda"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Environment and Planning B: Urban Analytics and City Science"
     },
     {
       "id": 28,
@@ -679,7 +710,8 @@
         "Hongjik Kim"
       ],
       "correspondence_source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0292657",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "PLoS ONE"
     },
     {
       "id": 33,
@@ -691,7 +723,8 @@
         "Keisuke Sakamoto"
       ],
       "correspondence_source": "https://www.jages.net/kenkyuseika/paper_eng/?action=common_download_main&upload_id=18070",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "Archives of Gerontology and Geriatrics"
     },
     {
       "id": 34,
@@ -703,7 +736,8 @@
         "Mei-Po Kwan"
       ],
       "correspondence_source": "https://research.cuhk.edu.hk/en/publications/how-accessibility-to-neighborhood-grocery-stores-is-related-to-ol-2/",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "Journal of Transport & Health"
     },
     {
       "id": 35,
@@ -714,7 +748,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Journal of Asian Architecture and Building Engineering"
     },
     {
       "id": 36,
@@ -726,7 +761,8 @@
         "Narushige Shiode"
       ],
       "correspondence_source": "https://link.springer.com/article/10.1007/s43762-023-00094-x",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "Computational Urban Science"
     },
     {
       "id": 37,
@@ -745,7 +781,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Journal of Transport & Health"
     },
     {
       "id": 39,
@@ -773,7 +810,8 @@
         "Narushige Shiode"
       ],
       "correspondence_source": "https://www.mdpi.com/2071-1050/15/3/2722",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "Sustainability"
     },
     {
       "id": 42,
@@ -785,7 +823,8 @@
         "Akiko Iida"
       ],
       "correspondence_source": "https://www.nature.com/articles/s42949-023-00083-3",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "npj Urban Sustainability"
     },
     {
       "id": 43,
@@ -828,7 +867,8 @@
       "corresponding_authors": [
         "Hongjik Kim"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Cities"
     },
     {
       "id": 48,
@@ -839,7 +879,8 @@
       "corresponding_authors": [
         "Masatomo Suzuki"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Journal of Housing Economics"
     },
     {
       "id": 49,
@@ -850,7 +891,8 @@
       "corresponding_authors": [
         "Hongjik Kim"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Social Science & Medicine"
     },
     {
       "id": 50,
@@ -879,7 +921,8 @@
         "Hiroshi Morita"
       ],
       "correspondence_source": "https://onlinelibrary.wiley.com/doi/full/10.1002/2475-8876.12323",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "Japan Architectural Review"
     },
     {
       "id": 53,
@@ -899,7 +942,8 @@
         "Takahiro Yamazaki"
       ],
       "correspondence_source": "https://www.mdpi.com/2071-1050/13/17/9817",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "Sustainability"
     },
     {
       "id": 55,
@@ -911,7 +955,8 @@
         "Tatsuya Sekiguchi"
       ],
       "correspondence_source": "https://www.mdpi.com/2071-1050/13/5/2634",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "Sustainability"
     },
     {
       "id": 56,
@@ -922,7 +967,8 @@
       "corresponding_authors": [
         "Kimihiro Hino"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "International Journal of Environmental Research and Public Health"
     },
     {
       "id": 57,
@@ -958,7 +1004,8 @@
         "Hongjik Kim"
       ],
       "correspondence_source": "https://link.springer.com/article/10.1007/s10901-020-09760-6",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "Journal of Housing and the Built Environment"
     },
     {
       "id": 61,
@@ -1003,7 +1050,8 @@
         "Hiroki Baba"
       ],
       "correspondence_source": "https://onlinelibrary.wiley.com/doi/10.1002/2475-8876.12088",
-      "correspondence_status": "publisher_verified"
+      "correspondence_status": "publisher_verified",
+      "journal": "Japan Architectural Review"
     },
     {
       "id": 66,
@@ -1126,7 +1174,8 @@
       "corresponding_authors": [
         "Masahiro Taima"
       ],
-      "correspondence_status": "user_confirmed"
+      "correspondence_status": "user_confirmed",
+      "journal": "Environment and Planning B: Urban Analytics and City Science"
     },
     {
       "id": 81,
