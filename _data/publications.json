@@ -545,9 +545,10 @@
     },
     {
       "id": 52,
-      "citation": "Hiroshi Morita, Kimihiro Hino, Ikuho Yamada, Hiroyuki Usui, Taku Nohara, Yasushi Asami, “Association between neighborhood living environment and step counts of middle-aged and older adults: Focusing on street systems from the perspective of traffic safety”, Japan Architectural Review, first published 28 November 2022. 和文原著：森田洋史・樋野公宏・山田育穂・薄井宏行・野原卓・浅見泰司「近隣住環境と中高齢者との歩数の関係―交通安全性の観点から街路構成に着目して―」日本建築学会計画系論文集, no.791, 133–139, 2022年1月.",
+      "citation": "Hiroshi Morita, Kimihiro Hino, Ikuho Yamada, Hiroyuki Usui, Taku Nohara, Yasushi Asami, “Association between neighborhood living environment and step counts of middle-aged and older adults: Focusing on street systems from the perspective of traffic safety”, Japan Architectural Review, first published 28 November 2022. 和文原著：森田洋史・樋野公宏・山田育穂・薄井宏行・野原卓・浅見泰司「近隣住環境と中高齢者の歩数との関係―交通安全性の観点から街路構成に着目して―」日本建築学会計画系論文集, no.791, 133–139, 2022年1月.",
       "doi": "10.1002/2475-8876.12323",
-      "source_order": 52
+      "source_order": 52,
+      "original_doi": "10.3130/aija.87.133"
     },
     {
       "id": 53,
@@ -625,7 +626,8 @@
       "id": 65,
       "citation": "Hiroki Baba, Kimihiro Hino, “Factors and tendencies of housing abandonment: An analysis of a survey of vacant houses in Kawaguchi City, Saitama”, Japan Architectural Review, first published 26 April 2019. 和文原著：馬場弘樹・樋野公宏「空き家の管理不全要因とその傾向―川口市空き家実態調査の分析」日本建築学会計画系論文集, no.749, 1263–1271, 2018年7月.",
       "doi": "10.1002/2475-8876.12088",
-      "source_order": 65
+      "source_order": 65,
+      "original_doi": "10.3130/aija.83.1263"
     },
     {
       "id": 66,
