@@ -1,14 +1,14 @@
 {
   "first_author": [
     {
-      "id": 1,
-      "citation": "Kimihiro Hino, Ikuho Yamada, Takahiro Yoshida, “The impact of introducing new light rail on step counts: Threshold distance analysis in a Japanese regional city”, Journal of Transport & Health, 45, 102206, 2025.",
-      "doi": "10.1016/j.jth.2025.102206"
-    },
-    {
       "id": 2,
       "citation": "Kimihiro Hino, Yinan Chen, Masamitsu Kamada, James Woodcock, “Step count disparities across Japan by commuting modes and population density: Focusing on within-week variations using smartphone-measured data from 1.87 million person-days”, Journal of Physical Activity & Health, 23(2), 162–178, 2026.",
       "doi": "10.1123/jpah.2025-0330"
+    },
+    {
+      "id": 1,
+      "citation": "Kimihiro Hino, Ikuho Yamada, Takahiro Yoshida, “The impact of introducing new light rail on step counts: Threshold distance analysis in a Japanese regional city”, Journal of Transport & Health, 45, 102206, 2025.",
+      "doi": "10.1016/j.jth.2025.102206"
     },
     {
       "id": 3,
@@ -46,14 +46,14 @@
       "doi": "10.1016/j.cities.2022.103614"
     },
     {
-      "id": 10,
-      "citation": "Kimihiro Hino, Erika Ikeda, Saiko Sadahiro, Shigeru Inoue, “Associations of neighborhood built, safety, and social environment with walking to and from school among elementary school-aged children in Chiba, Japan”, International Journal of Behavioral Nutrition and Physical Activity 18, 152, 2021.",
-      "doi": "10.1186/s12966-021-01202-y"
-    },
-    {
       "id": 11,
       "citation": "Kimihiro Hino, Kyoya Mizutani, Yasushi Asami, Hiroki Baba, Norimitsu Ishii, “Attitudes of parents and children toward housing inheritance in a Tokyo suburb”, Journal of Asian Architecture and Building Engineering, 21(5), 2131–2140, 2022.",
       "doi": "10.1080/13467581.2021.1964976"
+    },
+    {
+      "id": 10,
+      "citation": "Kimihiro Hino, Erika Ikeda, Saiko Sadahiro, Shigeru Inoue, “Associations of neighborhood built, safety, and social environment with walking to and from school among elementary school-aged children in Chiba, Japan”, International Journal of Behavioral Nutrition and Physical Activity 18, 152, 2021.",
+      "doi": "10.1186/s12966-021-01202-y"
     },
     {
       "id": 12,
@@ -116,14 +116,14 @@
       "doi": "10.14985/jappm.41.1_44"
     },
     {
-      "id": 24,
-      "citation": "Kimihiro Hino, Jung Su Lee, Yasushi Asami, “Associations between seasonal meteorological conditions and the daily step count of adults in Yokohama, Japan: Results of year-round pedometer measurements in a large population”, Preventive Medicine Reports 8, 15–17, 2017.",
-      "doi": "10.1016/j.pmedr.2017.07.009"
-    },
-    {
       "id": 25,
       "citation": "Kimihiro Hino, Masaya Uesugi, Yasushi Asami, “Official Crime Rates and Residents’ Sense of Security Across Neighborhoods in Tokyo, Japan”, Urban Affairs Review 54(1), 165–189, 2018.",
       "doi": "10.1177/1078087416667619"
+    },
+    {
+      "id": 24,
+      "citation": "Kimihiro Hino, Jung Su Lee, Yasushi Asami, “Associations between seasonal meteorological conditions and the daily step count of adults in Yokohama, Japan: Results of year-round pedometer measurements in a large population”, Preventive Medicine Reports 8, 15–17, 2017.",
+      "doi": "10.1016/j.pmedr.2017.07.009"
     },
     {
       "id": 26,
@@ -166,14 +166,14 @@
       "doi": ""
     },
     {
-      "id": 34,
-      "citation": "樋野公宏・雨宮護「既成住宅地の防犯における監視性のあり方に関する考察」日本都市計画学会学術研究論文集, no.44(3), 301–306, 2009年10月.",
-      "doi": "10.11361/journalcpij.44.3.301"
-    },
-    {
       "id": 35,
       "citation": "樋野公宏・吉村輝彦「地区レベルでの防犯まちづくりに関する計画づくりの意義と課題」日本都市計画学会学術研究論文集, no.45(3), 331–336, 2010年10月.",
       "doi": "10.11361/journalcpij.45.3.331"
+    },
+    {
+      "id": 34,
+      "citation": "樋野公宏・雨宮護「既成住宅地の防犯における監視性のあり方に関する考察」日本都市計画学会学術研究論文集, no.44(3), 301–306, 2009年10月.",
+      "doi": "10.11361/journalcpij.44.3.301"
     },
     {
       "id": 36,
