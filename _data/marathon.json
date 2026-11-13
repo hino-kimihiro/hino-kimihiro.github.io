@@ -1,0 +1,162 @@
+{
+  "half_marathon": [
+    {
+      "date": "2026-02-01",
+      "location": "Moriya",
+      "time": "01:27:30"
+    },
+    {
+      "date": "2025-12-14",
+      "location": "Chikusei",
+      "time": "01:27:59"
+    },
+    {
+      "date": "2024-12-15",
+      "location": "Kasama",
+      "time": "01:29:43"
+    },
+    {
+      "date": "2024-11-10",
+      "location": "Bando",
+      "time": "01:28:57"
+    },
+    {
+      "date": "2023-02-05",
+      "location": "Moriya",
+      "time": "01:28:59"
+    },
+    {
+      "date": "2022-12-18",
+      "location": "Adachi",
+      "time": "01:30:46"
+    },
+    {
+      "date": "2020-02-09",
+      "location": "Moriya",
+      "time": "01:26:20"
+    },
+    {
+      "date": "2019-02-03",
+      "location": "Moriya",
+      "time": "01:27:02"
+    },
+    {
+      "date": "2018-12-23",
+      "location": "Adachi",
+      "time": "01:25:13"
+    },
+    {
+      "date": "2018-02-04",
+      "location": "Moriya",
+      "time": "01:27:05"
+    },
+    {
+      "date": "2017-12-23",
+      "location": "Adachi",
+      "time": "01:27:53"
+    },
+    {
+      "date": "2017-02-05",
+      "location": "Moriya",
+      "time": "01:26:25"
+    },
+    {
+      "date": "2016-12-23",
+      "location": "Adachi",
+      "time": "01:28:34"
+    },
+    {
+      "date": "2016-02-07",
+      "location": "Moriya",
+      "time": "01:29:21"
+    },
+    {
+      "date": "2015-12-23",
+      "location": "Adachi",
+      "time": "01:27:38"
+    },
+    {
+      "date": "2015-02-01",
+      "location": "Moriya",
+      "time": "01:27:35"
+    },
+    {
+      "date": "2014-12-23",
+      "location": "Adachi",
+      "time": "01:26:56"
+    },
+    {
+      "date": "2014-02-02",
+      "location": "Moriya",
+      "time": "01:29:53"
+    },
+    {
+      "date": "2013-12-23",
+      "location": "Adachi",
+      "time": "01:25:47"
+    },
+    {
+      "date": "2013-02-03",
+      "location": "Moriya",
+      "time": "01:29:33"
+    },
+    {
+      "date": "2012-12-23",
+      "location": "Adachi",
+      "time": "01:30:02"
+    },
+    {
+      "date": "2012-02-12",
+      "location": "Moriya",
+      "time": "01:35:01"
+    }
+  ],
+  "ten_km": [
+    {
+      "date": "2017-11-26",
+      "location": "Tsukuba",
+      "time": "00:39:51"
+    },
+    {
+      "date": "2017-10-08",
+      "location": "Nagareyama",
+      "time": "00:40:03"
+    },
+    {
+      "date": "2016-02-21",
+      "location": "Ishioka",
+      "time": "00:39:34"
+    },
+    {
+      "date": "2015-02-22",
+      "location": "Ishioka",
+      "time": "00:38:57"
+    },
+    {
+      "date": "2014-11-23",
+      "location": "Tsukuba",
+      "time": "00:40:13"
+    },
+    {
+      "date": "2014-10-12",
+      "location": "Nagareyama",
+      "time": "00:40:07"
+    },
+    {
+      "date": "2013-11-24",
+      "location": "Tsukuba",
+      "time": "00:41:48"
+    },
+    {
+      "date": "2013-10-13",
+      "location": "Nagareyama",
+      "time": "00:41:32"
+    },
+    {
+      "date": "2012-10-07",
+      "location": "Nagareyama",
+      "time": "00:41:26"
+    }
+  ],
+  "parkrun_url": "https://www.parkrun.org.uk/parkrunner/4890847/"
+}
