@@ -29,25 +29,24 @@ layout: null
 <p>2009年以降の招待講演・講演記録</p>
 <p class="intro">多数のご依頼を頂戴し有難うございます。原則として単発の一般向け講演はお断りしています。ご了承ください。</p>
 <nav class="tabs" aria-label="Lecture categories">
-<a href="#general">Invited lectures in Japan ({{ site.data.lectures_general.size }})</a>
-<a href="#academic">Academic meetings ({{ site.data.lectures_academic.size }})</a>
-<a href="#abroad">Invited lectures abroad ({{ site.data.lectures_abroad.size }})</a>
+<a href="#academic">Academic Lectures ({{ site.data.lectures_academic_all.size }})</a>
+<a href="#public">Public and Professional Lectures ({{ site.data.lectures_public_professional.size }})</a>
 </nav>
-<section id="general">
-<h2>Invited lectures in Japan <span lang="ja">／ 国内での招待講演</span></h2>
-{% assign general_years = site.data.lectures_general | group_by_exp: "item", "item.date | slice: 0, 4" %}
-{% for yr in general_years %}
+<section id="academic">
+<h2>Academic Lectures <span lang="ja">／ 学術講演</span></h2>
+{% assign academic_years = site.data.lectures_academic_all | group_by_exp: "item", "item.date | slice: 0, 4" %}
+{% for yr in academic_years %}
 <h3>{{ yr.name }}</h3>
 <ol class="bibliography">{% for item in yr.items %}<li>{{ item.citation | escape }}</li>{% endfor %}</ol>
 {% endfor %}
 </section>
-<section id="academic">
-<h2>Academic meetings <span lang="ja">／ 国内の学術集会等</span></h2>
-<ol class="bibliography">{% for item in site.data.lectures_academic %}<li>{{ item.citation | escape }}</li>{% endfor %}</ol>
-</section>
-<section id="abroad">
-<h2>Invited lectures abroad <span lang="ja">／ 海外での招待講演</span></h2>
-<ol class="bibliography">{% for item in site.data.lectures_abroad %}<li>{{ item.citation | escape }}</li>{% endfor %}</ol>
+<section id="public">
+<h2>Public and Professional Lectures <span lang="ja">／ 一般・実務者向け講演</span></h2>
+{% assign public_years = site.data.lectures_public_professional | group_by_exp: "item", "item.date | slice: 0, 4" %}
+{% for yr in public_years %}
+<h3>{{ yr.name }}</h3>
+<ol class="bibliography">{% for item in yr.items %}<li>{{ item.citation | escape }}</li>{% endfor %}</ol>
+{% endfor %}
 </section>
 </main><footer><div class="wrap">© {{ site.time | date: '%Y' }} Kimihiro Hino · The University of Tokyo</div></footer>
 </body>
