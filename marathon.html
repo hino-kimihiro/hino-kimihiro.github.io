@@ -1,0 +1,57 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Running results by Kimihiro Hino: half marathons, 10 km races and parkrun.">
+<title>Marathon | Kimihiro Hino</title>
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+.main{max-width:900px;margin:auto;padding:38px 28px 75px}
+.main h1{font-size:clamp(30px,4vw,43px);color:#193b53;margin-bottom:8px}
+.intro{color:#697783;font-size:14px;margin-top:0}
+.tabs{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}
+.tabs a{background:#f4f8fb;padding:6px 14px;border-radius:6px;text-decoration:none}
+.main h2{margin:38px 0 15px}
+.race-table{width:100%;border-collapse:collapse;font-size:15px}
+.race-table th{text-align:left;color:#5a6975;font-size:13px;border-bottom:2px solid #dbe3e8;padding:10px 14px}
+.race-table td{padding:10px 14px;border-bottom:1px solid #e8edf1}
+.race-table td:last-child{font-variant-numeric:tabular-nums;white-space:nowrap}
+.race-table .best{font-weight:700}
+.back{display:inline-block;margin:20px 0}
+@media(max-width:480px){.race-table th,.race-table td{padding:9px 6px;font-size:13px}}
+</style>
+</head>
+<body>
+<header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/news.html">News</a><a href="/publications.html">Articles</a><a href="/lectures.html">Lectures</a><a href="/marathon.html" aria-current="page">Marathon</a></nav></div></header>
+<main class="main">
+<a class="back" href="/">← Home</a>
+<h1>Marathon</h1>
+<p class="intro">Personal running records</p>
+<nav class="tabs"><a href="#half">Half Marathon</a><a href="#ten">10 km</a><a href="#parkrun">parkrun (5 km)</a></nav>
+<section id="half">
+<h2>Half Marathon</h2>
+<table class="race-table"><thead><tr><th>Date</th><th>Location</th><th>Time</th></tr></thead><tbody>
+{% assign half_fastest = site.data.marathon.half_marathon | sort: 'time' | first %}
+{% for race in site.data.marathon.half_marathon %}
+<tr><td>{{ race.date | date: "%Y/%m/%d" }}</td><td>{{ race.location | escape }}</td><td{% if race.time == half_fastest.time %} class="best"{% endif %}>{{ race.time }}{% if race.time == half_fastest.time %} (PB){% endif %}</td></tr>
+{% endfor %}
+</tbody></table>
+</section>
+<section id="ten">
+<h2>10 km</h2>
+<table class="race-table"><thead><tr><th>Date</th><th>Location</th><th>Time</th></tr></thead><tbody>
+{% assign ten_fastest = site.data.marathon.ten_km | sort: 'time' | first %}
+{% for race in site.data.marathon.ten_km %}
+<tr><td>{{ race.date | date: "%Y/%m/%d" }}</td><td>{{ race.location | escape }}</td><td{% if race.time == ten_fastest.time %} class="best"{% endif %}>{{ race.time }}{% if race.time == ten_fastest.time %} (PB){% endif %}</td></tr>
+{% endfor %}
+</tbody></table>
+</section>
+<section id="parkrun">
+<h2>parkrun (5 km)</h2>
+<p><a href="{{ site.data.marathon.parkrun_url | escape }}">View my parkrun records</a></p>
+</section>
+</main><footer><div class="wrap">© {{ site.time | date: '%Y' }} Kimihiro Hino · The University of Tokyo</div></footer>
+</body></html>
