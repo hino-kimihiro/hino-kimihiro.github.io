@@ -40,7 +40,7 @@ layout: null
 <section id="completed">
 <h2>Completed Projects <span lang="ja">／ 終了した研究課題</span></h2>
 <ul class="projects">{% for item in site.data.grants.completed %}
-<li><div class="project-title">{{ item.title | escape }}</div><div class="meta"><span class="period">{{ item.period | escape }}{% unless item.period contains '.' %}年度{% endunless %}</span> · {{ item.funder | escape }}{% if item.role %} · {{ item.role | escape }}{% endif %}{% if item.lead %}（{% if item.role == '研究代表者' %}代表{% else %}代表者・参加者{% endif %}：{{ item.lead | escape }}）{% endif %}{% if item.award %} · <span class="award">受賞：{{ item.award | escape }}</span>{% endif %}</div></li>
+<li><div class="project-title">{{ item.title | escape }}</div><div class="meta"><span class="period">{{ item.period | escape }}{% unless item.period contains '.' %}年度{% endunless %}</span> · {{ item.funder | escape }}{% if item.role %} · {{ item.role | escape }}{% endif %}{% if item.lead %}（{% if item.role == '研究代表者' %}代表{% else %}原資料記載者{% endif %}：{{ item.lead | escape }}）{% endif %}{% if item.participants %} · 原資料の共同研究者：{{ item.participants | escape }}{% endif %}{% if item.award %} · <span class="award">受賞：{{ item.award | escape }}</span>{% endif %}</div></li>
 {% endfor %}</ul>
 </section>
 <section id="bri">
