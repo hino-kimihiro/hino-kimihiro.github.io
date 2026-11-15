@@ -40,7 +40,7 @@ layout: null
 <section id="completed">
 <h2>Completed Projects <span lang="ja">／ 終了した研究課題</span></h2>
 <ul class="projects">{% for item in site.data.grants.completed %}
-<li><div class="project-title">{{ item.title | escape }}</div><div class="meta"><span class="period">{{ item.period_display | escape }}</span>{% if item.completion_note %}（{{ item.completion_note | escape }}）{% endif %} · {{ item.funder | escape }}{% if item.role %} · {{ item.role | escape }}{% endif %}{% if item.lead_label %} · {{ item.lead_label | escape }}：{{ item.lead | escape }}{% elsif item.lead and item.role != '研究代表者' and item.kaken %}（研究代表者：{{ item.lead | escape }}）{% endif %}{% if item.kaken %} · <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-{{ item.kaken }}/">KAKEN {{ item.kaken | escape }}</a>{% endif %}{% if item.participants %} · 研究メンバー：{{ item.participants | escape }}{% endif %}{% if item.award %} · <span class="award">受賞：{{ item.award | escape }}</span>{% endif %}</div></li>
+<li><div class="project-title">{{ item.title | escape }}</div><div class="meta"><span class="period">{{ item.period_display | escape }}</span> · {{ item.funder | escape }}{% if item.role %} · {{ item.role | escape }}{% endif %}{% if item.lead_label %} · {{ item.lead_label | escape }}：{{ item.lead | escape }}{% elsif item.lead and item.role != '研究代表者' and item.kaken %}（研究代表者：{{ item.lead | escape }}）{% endif %}{% if item.kaken %} · <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-{{ item.kaken }}/">KAKEN {{ item.kaken | escape }}</a>{% endif %}{% if item.participants %} · 研究メンバー：{{ item.participants | escape }}{% endif %}{% if item.award %} · <span class="award">受賞：{{ item.award | escape }}</span>{% endif %}</div></li>
 {% endfor %}</ul>
 </section>
 <section id="bri">
