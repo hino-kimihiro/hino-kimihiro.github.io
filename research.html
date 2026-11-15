@@ -1,0 +1,92 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Research interests of Kimihiro Hino: residential environments, crime prevention, and healthy cities. 樋野公宏の研究テーマ。">
+<title>Research Interests | Kimihiro Hino</title>
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+.main{max-width:1040px;margin:auto;padding:38px 28px 76px}
+.main h1{font-size:clamp(30px,4vw,43px);line-height:1.3;color:#193b53;margin-bottom:22px}
+.main h2{margin-top:48px}
+.main p{line-height:1.9}
+.main .ja{margin-bottom:12px}
+.main .en{color:#465968;margin-top:0}
+.main .keywords{font-size:14px;color:#52697b;margin:18px 0 26px}
+.main .keywords strong{color:#193b53}
+.main h3{font-size:16px;color:#193b53;margin:24px 0 10px}
+.main .papers{list-style:none;margin:0;padding:0}
+.main .papers li{padding:11px 0;border-bottom:1px solid #e8edf1;line-height:1.75;font-size:14px;overflow-wrap:anywhere}
+.main .papers li:first-child{border-top:1px solid #e8edf1}
+.main .doi{margin-left:10px;white-space:nowrap;font-size:13px}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0 30px}
+.tabs a{background:#f4f8fb;padding:7px 13px;border-radius:6px;text-decoration:none;font-size:14px}
+.back{display:inline-block;margin:20px 0}
+.prospective{background:#f5f8fa;border-left:3px solid #8baabc;padding:20px 24px;margin:24px 0 40px}
+.prospective h2{margin:0 0 12px;border:0;padding:0}
+.prospective p:last-child{margin-bottom:0}
+@media(max-width:600px){.main{padding:26px 20px 60px}.prospective{padding:16px 18px}}
+</style>
+</head>
+<body>
+<header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/about.html">About</a><a href="/research.html" aria-current="page">Research</a><a href="/news.html">News</a><a href="/publications.html">Articles</a><a href="/lectures.html">Lectures</a><a href="/marathon.html">Marathon</a></nav></div></header>
+<main class="main">
+<a class="back" href="/">← Home</a>
+<h1>Research Interests <span lang="ja">／ 研究テーマ</span></h1>
+<section class="prospective" id="prospective">
+<h2>For Prospective Students</h2>
+<p lang="en">Our lab conducts research on issues related to housing and residential environments, using urban analytics to contribute to human well-being. When considering prospective graduate students, we place particular importance on whether their proposed research aligns with this mission. Please see below for my current research interests.</p>
+<p lang="en">We expect applicants not simply to apply new data or analytical methods, but to have a clear understanding of the issues they wish to address. We also value research that combines quantitative analysis with fieldwork and qualitative approaches to understand the study area and people's everyday lives.</p>
+<p lang="en">Due to the limited capacity of our lab and the large number of prospective applicants, we require applicants to have at least one peer-reviewed journal article. Conference papers do not count toward this requirement.</p>
+</section>
+<nav class="tabs" aria-label="Research areas"><a href="#overview">Research Overview</a><a href="#residential">Residential Environment</a><a href="#crime">Crime Prevention</a><a href="#healthy">Healthy Cities</a></nav>
+<section id="overview">
+<h2>Research Overview <span lang="ja">／ 研究概要</span></h2>
+<p class="ja" lang="ja">都市環境および住環境と、人々の行動や生活の質との関係を明らかにし、より安全で健康的なまちづくりに貢献することを目指しています。主な研究領域は、住環境、都市防犯、健康まちづくりの3つです。地理空間データや人々の行動データを用いた定量分析を中心に、現地調査や地域での実践も重視しています。</p>
+<p class="en" lang="en">My research examines the relationships between the built environment, human behavior, and well-being, with the aim of contributing to safer and healthier cities. My three main research areas are residential environments, urban crime prevention, and healthy cities. I primarily use quantitative methods, including geospatial and human mobility data analysis, while also emphasizing fieldwork and practical applications in local communities.</p>
+</section>
+<section id="residential">
+<h2>Residential Environment <span lang="ja">／ 住環境</span></h2>
+<p class="ja" lang="ja">人口減少や高齢化が進むなかで、住宅地の持続可能性と居住者の生活の質を高めるための研究に取り組んでいます。特に、高経年住宅団地の再生、空き家問題、生活利便施設へのアクセス、地域コミュニティや社会参加に関心があります。高島平団地（板橋区）などを対象に、居住者が住み続けられるとともに、新たな世代にも選ばれる住宅地のあり方を探っています。</p>
+<p class="en" lang="en">My research addresses the sustainability of residential neighborhoods and residents' well-being in the context of population decline and aging. Key topics include the regeneration of aging housing estates, vacant housing, access to daily amenities, and community participation. Through studies of housing estates and suburban neighborhoods in the Tokyo metropolitan area, I explore how residential environments can enable residents to remain in their communities as they age, while remaining attractive to future generations.</p>
+<p class="keywords"><strong>Keywords:</strong> Vacant houses, Food deserts, Aging in place, Third place, Social participation</p>
+<h3>Selected Publications <span lang="ja">／ 関連する主要論文</span></h3>
+<ul class="papers">
+{% assign p = site.data.publications.coauthor_recent | where: "id", 15 | first %}{% include research-paper.html paper=p %}
+{% assign p = site.data.publications.first_author | where: "id", 11 | first %}{% include research-paper.html paper=p %}
+{% assign p = site.data.publications.first_author | where: "id", 19 | first %}{% include research-paper.html paper=p %}
+</ul>
+</section>
+<section id="crime">
+<h2>Crime Prevention <span lang="ja">／ 都市防犯</span></h2>
+<p class="ja" lang="ja">犯罪や犯罪不安と都市環境との関係を分析し、安全・安心なまちづくりの実現を目指しています。防犯環境設計（CPTED）の観点から、住宅や街路などの物的環境と犯罪発生の関係を研究するとともに、住民による地域の見守り活動にも着目しています。犯罪発生データや地理空間データを用いた分析に加え、警察や自治体との連携を通じて、研究成果の応用にも取り組んでいます。</p>
+<p class="en" lang="en">My research examines how the built environment and community characteristics are associated with crime and fear of crime, aiming to create safer residential neighborhoods. Drawing on Crime Prevention Through Environmental Design (CPTED), I investigate the relationships between physical environments, such as housing and streets, and crime occurrence, as well as residents' participation in crime prevention. I also work with police departments and local governments to translate research findings into practice.</p>
+<p class="keywords"><strong>Keywords:</strong> Crime Prevention Through Environmental Design (CPTED), Community-based crime prevention, Crime prevention volunteering</p>
+<h3>Selected Publications <span lang="ja">／ 関連する主要論文</span></h3>
+<ul class="papers">
+{% assign p = site.data.publications.coauthor_recent | where: "id", 26 | first %}{% include research-paper.html paper=p %}
+{% assign p = site.data.publications.first_author | where: "id", 5 | first %}{% include research-paper.html paper=p %}
+{% assign p = site.data.publications.first_author | where: "id", 8 | first %}{% include research-paper.html paper=p %}
+</ul>
+</section>
+<section id="healthy">
+<h2>Healthy Cities <span lang="ja">／ 健康まちづくり</span></h2>
+<p class="ja" lang="ja">歩行をはじめとする日常的な身体活動を促す住環境のあり方を研究しています。大規模な歩数・人流データを活用し、人口密度、公共交通、生活利便施設へのアクセスなどの住環境と身体活動の関係を分析するとともに、公共交通の整備など都市の変化が人々の行動にどのように影響するかを検証しています。また、子どもの徒歩通学や自立的な移動に着目し、安全と身体活動の両立を目指す研究にも取り組んでいます。</p>
+<p class="en" lang="en">My research explores how urban and residential environments can support walking and other forms of daily physical activity. Using large-scale step count and human mobility data, I examine associations between physical activity and urban characteristics, including population density, public transport, and access to daily amenities. I also investigate changes in physical activity associated with transport infrastructure development and neighborhood changes. Another major focus is children's active school travel and independent mobility, integrating physical activity promotion with traffic safety and crime prevention.</p>
+<p class="keywords"><strong>Keywords:</strong> Walkability, Active School Travel (AST), Children's Independent Mobility (CIM)</p>
+<h3>Selected Publications <span lang="ja">／ 関連する主要論文</span></h3>
+<ul class="papers">
+{% assign p = site.data.publications.first_author | where: "id", 2 | first %}{% include research-paper.html paper=p %}
+{% assign p = site.data.publications.coauthor_recent | where: "id", 1 | first %}{% include research-paper.html paper=p %}
+{% assign p = site.data.publications.first_author | where: "id", 3 | first %}{% include research-paper.html paper=p %}
+</ul>
+</section>
+<p><a href="/publications.html">All Articles &amp; Presentations / 業績一覧 →</a></p>
+</main>
+<footer><div class="wrap">© {{ site.time | date: '%Y' }} Kimihiro Hino · The University of Tokyo</div></footer>
+</body>
+</html>
