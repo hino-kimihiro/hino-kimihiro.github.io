@@ -1,0 +1,3 @@
+{% if include.paper %}
+<li>{{ include.paper.citation | escape }}{% if include.paper.doi != "" %}<a class="doi" href="https://doi.org/{{ include.paper.doi | escape }}">DOI</a>{% endif %}</li>
+{% endif %}
