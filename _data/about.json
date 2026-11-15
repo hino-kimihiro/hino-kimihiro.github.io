@@ -28,11 +28,13 @@
     },
     {
       "period": "2009–2014",
-      "description": "筑波大学大学院システム情報工学研究科 准教授（連携大学院）"
+      "description": "筑波大学大学院システム情報工学研究科 准教授（連携大学院）",
+      "indent": true
     },
     {
       "period": "2012–2013",
-      "description": "建築研究開発コンソーシアム 専任部長（兼務）"
+      "description": "建築研究開発コンソーシアム 専任部長（兼務）",
+      "indent": true
     },
     {
       "period": "2014–2026",
@@ -40,19 +42,23 @@
     },
     {
       "period": "Apr–Sep 2023",
-      "description": "Visiting Scientist, MRC Epidemiology Unit, University of Cambridge"
+      "description": "Visiting Scientist, MRC Epidemiology Unit, University of Cambridge",
+      "indent": true
     },
     {
       "period": "Apr–Sep 2023",
-      "description": "Visiting Fellow, Institute for Public Safety, Crime and Justice, University of Northampton"
+      "description": "Visiting Fellow, Institute for Public Safety, Crime and Justice, University of Northampton",
+      "indent": true
     },
     {
       "period": "Sep 2023–Mar 2024",
-      "description": "Visiting Scholar, Sydney Law School, University of Sydney"
+      "description": "Visiting Scholar, Sydney Law School, University of Sydney",
+      "indent": true
     },
     {
       "period": "Jan 2024–Jul 2026",
-      "description": "Visiting Fellow, Institute for Public Safety, Crime and Justice, University of Northampton"
+      "description": "Visiting Fellow, Institute for Public Safety, Crime and Justice, University of Northampton",
+      "indent": true
     },
     {
       "period": "2026–present",
@@ -68,7 +74,7 @@
     {
       "name": "都市住宅学会",
       "english": "Association of Urban Housing Sciences",
-      "url": "https://www.uhs.gr.jp/"
+      "url": "https://uhs.smoosy.atlas.jp/ja"
     },
     {
       "name": "日本建築学会",
@@ -88,11 +94,11 @@
   ],
   "awards_lead": [
     {
-      "date": "2024-04",
+      "date": "2024.04",
       "description": "日本建築学会論文集 査読功労者表彰"
     },
     {
-      "date": "2024-03",
+      "date": "2024.03",
       "description": "東京大学工学部 Best Teaching Award"
     },
     {
@@ -138,27 +144,27 @@
   ],
   "awards_collaborative": [
     {
-      "date": "2026-05",
+      "date": "2026.05",
       "description": "第28回日本運動疫学会学術総会 優秀演題賞：荒井一光・鎌田真光・吉田崇紘・山田育穂・樋野公宏「大型商業施設の閉店が近隣住民の歩数へ与える影響～差の差分析による準実験研究～」（那覇文化芸術劇場なはーと、那覇市）"
     },
     {
-      "date": "2025-11",
+      "date": "2025.11",
       "description": "第34回日本地域学会学会賞 著作賞：Yasushi Asami, Yukio Sadahiro, Ikuho Yamada, Kimihiro Hino, “Studies in Housing and Urban Analysis in Japan”（関西大学千里山キャンパス、大阪府吹田市）"
     },
     {
-      "date": "2025-07",
+      "date": "2025.07",
       "description": "第27回日本運動疫学会学術総会 最優秀演題賞：杉橋洸・鎌田真光・稲田晴彦・樋野公宏・市川政雄「自転車利用時のヘルメット着用に関する多面的施策が高校生の頭部外傷に与える影響～合成コントロールを伴う分割時系列デザイン～」（摂津コミュニティープラザ、大阪府摂津市）"
     },
     {
-      "date": "2024-10",
+      "date": "2024.10",
       "description": "Award for Best Poster Presentation, 10th International Society for Physical Activity and Health Congress: Shigeru Inoue, Hiroyuki Kikuchi, Shiho Amagasa, Kimihiro Hino, Tomoya Hanibuchi, Tomoki Nakaya, “Two-by-two Framework for Physical Activity Environment in the New Japanese Physical Activity Guidelines” (The Palais des Congrès de Paris, France)"
     },
     {
-      "date": "2024-06",
+      "date": "2024.06",
       "description": "第26回日本運動疫学会学術総会 最優秀演題賞：荒井一光・鎌田真光・吉田崇紘・山田育穂・樋野公宏「120万人のスマートフォンアプリ利用者を対象とした歩数の大規模記述疫学～自治体間格差に着目した分析～」（佐久大学）"
     },
     {
-      "date": "2023-06",
+      "date": "2023.06",
       "description": "第25回日本運動疫学会学術総会 最優秀演題賞：Takumi Abe, Takemi Sugiyama, Neville Owen, Kimihiro Hino, “Neighbourhood built environment and withdrawal from a walking program with incentives in mid-to-older aged adults in Japan”（中京大学）"
     },
     {
