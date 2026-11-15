@@ -1,0 +1,202 @@
+{
+  "education": [
+    {
+      "year": "1994",
+      "description": "東京大学教養学部 理科一類入学"
+    },
+    {
+      "year": "1998",
+      "description": "東京大学工学部都市工学科卒業"
+    },
+    {
+      "year": "2000",
+      "description": "東京大学大学院工学系研究科都市工学専攻 修士課程修了"
+    },
+    {
+      "year": "2003",
+      "description": "東京大学大学院工学系研究科都市工学専攻 博士課程修了"
+    }
+  ],
+  "experience": [
+    {
+      "period": "2000–2011",
+      "description": "商店街とまちづくり研究会 理事長（2002年NPO法人化、2003年「しょうまち」に改称）"
+    },
+    {
+      "period": "2004–2014",
+      "description": "独立行政法人建築研究所 住宅・都市研究グループ（2009年より主任研究員）"
+    },
+    {
+      "period": "2009–2014",
+      "description": "筑波大学大学院システム情報工学研究科 准教授（連携大学院）"
+    },
+    {
+      "period": "2012–2013",
+      "description": "建築研究開発コンソーシアム 専任部長（兼務）"
+    },
+    {
+      "period": "2014–2026",
+      "description": "東京大学大学院工学系研究科都市工学専攻 准教授"
+    },
+    {
+      "period": "Apr–Sep 2023",
+      "description": "Visiting Scientist, MRC Epidemiology Unit, University of Cambridge"
+    },
+    {
+      "period": "Apr–Sep 2023",
+      "description": "Visiting Fellow, Institute for Public Safety, Crime and Justice, University of Northampton"
+    },
+    {
+      "period": "Sep 2023–Mar 2024",
+      "description": "Visiting Scholar, Sydney Law School, University of Sydney"
+    },
+    {
+      "period": "Jan 2024–Jul 2026",
+      "description": "Visiting Fellow, Institute for Public Safety, Crime and Justice, University of Northampton"
+    },
+    {
+      "period": "2026–present",
+      "description": "東京大学大学院工学系研究科都市工学専攻 教授"
+    }
+  ],
+  "memberships": [
+    {
+      "name": "日本都市計画学会",
+      "english": "City Planning Institute of Japan",
+      "url": "https://www.cpij.or.jp/"
+    },
+    {
+      "name": "都市住宅学会",
+      "english": "Association of Urban Housing Sciences",
+      "url": "https://www.uhs.gr.jp/"
+    },
+    {
+      "name": "日本建築学会",
+      "english": "Architectural Institute of Japan",
+      "url": "https://www.aij.or.jp/"
+    },
+    {
+      "name": "日本公衆衛生学会",
+      "english": "Japanese Society of Public Health",
+      "url": "https://www.jsph.jp/"
+    },
+    {
+      "name": "日本計画行政学会",
+      "english": "Japan Association for Planning and Public Management",
+      "url": "https://www.japanpa.jp/"
+    }
+  ],
+  "awards_lead": [
+    {
+      "date": "2024-04",
+      "description": "日本建築学会論文集 査読功労者表彰"
+    },
+    {
+      "date": "2024-03",
+      "description": "東京大学工学部 Best Teaching Award"
+    },
+    {
+      "date": "2019",
+      "description": "日本計画行政学会 論文賞：樋野公宏・石井儀光・阪田知彦・藤井祥子「男性高齢者の地域活動参加要因とその構造分析 -グラウンデッド・セオリー・アプローチを用いて」"
+    },
+    {
+      "date": "2017",
+      "description": "都市住宅学会賞 論文賞：シェア居住に対する意識とその構造 ～単身女性及び娘を持つ母親を対象とするアンケート調査から"
+    },
+    {
+      "date": "2013",
+      "description": "国土交通省国土技術研究会 一般部門「安全・安心」最優秀賞：防犯性の高い市街地形成に向けた取り組み―「防犯まちづくりデザインガイド」の作成と普及"
+    },
+    {
+      "date": "2010",
+      "description": "日本都市計画学会 論文奨励賞：防犯に配慮した住宅地デザインに関する一連の研究"
+    },
+    {
+      "date": "2009",
+      "description": "社会安全研究財団 一般研究助成 優秀賞：樋野公宏・渡和由・柴田建・温井達也「北米の計画的戸建住宅地における『開いた防犯』の手法」"
+    },
+    {
+      "date": "2007",
+      "description": "社会安全研究財団 若手助成研究 優秀賞：地区特性に応じた防犯まちづくりの方向性"
+    },
+    {
+      "date": "2006",
+      "description": "日本計画行政学会 奨励賞：地域住民と協働して行なう商店街宅配サービス事業に関する研究"
+    },
+    {
+      "date": "2006",
+      "description": "国土交通省・都市再生機構「既存共同住宅団地の再生に関する提案」優秀提案：「Safer Places」の視点による既存団地の防犯性向上手法"
+    },
+    {
+      "date": "2005",
+      "description": "国土交通省国土技術研究会 一般部門「安全・安心」最優秀賞：地域安全マップにみる住宅地における犯罪不安箇所の空間特性"
+    },
+    {
+      "date": "2005",
+      "description": "社会安全研究財団 若手助成研究 最優秀賞：防犯性からみた住民参加による公園管理の効果と展望"
+    }
+  ],
+  "awards_collaborative": [
+    {
+      "date": "2026-05",
+      "description": "第28回日本運動疫学会学術総会 優秀演題賞：荒井一光・鎌田真光・吉田崇紘・山田育穂・樋野公宏「大型商業施設の閉店が近隣住民の歩数へ与える影響～差の差分析による準実験研究～」（那覇文化芸術劇場なはーと、那覇市）"
+    },
+    {
+      "date": "2025-11",
+      "description": "第34回日本地域学会学会賞 著作賞：Yasushi Asami, Yukio Sadahiro, Ikuho Yamada, Kimihiro Hino, “Studies in Housing and Urban Analysis in Japan”（関西大学千里山キャンパス、大阪府吹田市）"
+    },
+    {
+      "date": "2025-07",
+      "description": "第27回日本運動疫学会学術総会 最優秀演題賞：杉橋洸・鎌田真光・稲田晴彦・樋野公宏・市川政雄「自転車利用時のヘルメット着用に関する多面的施策が高校生の頭部外傷に与える影響～合成コントロールを伴う分割時系列デザイン～」（摂津コミュニティープラザ、大阪府摂津市）"
+    },
+    {
+      "date": "2024-10",
+      "description": "Award for Best Poster Presentation, 10th International Society for Physical Activity and Health Congress: Shigeru Inoue, Hiroyuki Kikuchi, Shiho Amagasa, Kimihiro Hino, Tomoya Hanibuchi, Tomoki Nakaya, “Two-by-two Framework for Physical Activity Environment in the New Japanese Physical Activity Guidelines” (The Palais des Congrès de Paris, France)"
+    },
+    {
+      "date": "2024-06",
+      "description": "第26回日本運動疫学会学術総会 最優秀演題賞：荒井一光・鎌田真光・吉田崇紘・山田育穂・樋野公宏「120万人のスマートフォンアプリ利用者を対象とした歩数の大規模記述疫学～自治体間格差に着目した分析～」（佐久大学）"
+    },
+    {
+      "date": "2023-06",
+      "description": "第25回日本運動疫学会学術総会 最優秀演題賞：Takumi Abe, Takemi Sugiyama, Neville Owen, Kimihiro Hino, “Neighbourhood built environment and withdrawal from a walking program with incentives in mid-to-older aged adults in Japan”（中京大学）"
+    },
+    {
+      "date": "2021",
+      "description": "日本建築学会関東支部研究発表会 優秀研究報告：塩崎洸・浅見泰司・樋野公宏・薄井宏行「COVID-19パンデミック下における町丁字スケールの人口変動要因の変化」"
+    },
+    {
+      "date": "2021",
+      "description": "地理情報システム学会学術研究発表 ポスターセッション賞：左右田敢太・岡澤由季・滝澤輝久・黄伊琳・藤松駿・薄井宏行・樋野公宏「東京都千代田区の公衆トイレ面的配置問題に関する分析」"
+    },
+    {
+      "date": "2021",
+      "description": "東京大学オンライン授業等におけるグッドプラクティス総長表彰（共同受賞、都市工学演習）"
+    },
+    {
+      "date": "2019",
+      "description": "都市住宅学会 学会賞著作賞：浅見泰司・樋野公宏編『民泊を考える』プログレス、2018年5月"
+    },
+    {
+      "date": "2018",
+      "description": "地理情報システム学会学術研究発表 ポスターセッション賞：関口達也・樋野公宏「位置情報と購買履歴データを活用した移動販売車の利用実態の分析 利用場所・商品の特徴に着目して」"
+    },
+    {
+      "date": "2017",
+      "description": "地理情報システム学会学術研究発表 ポスターセッション賞：馬場弘樹・樋野公宏「管理不全空き家の傾向と地区特性との対応に関する考察」"
+    },
+    {
+      "date": "2017",
+      "description": "日本都市計画学会 年間優秀論文賞：木下広章・柴田久・石橋知也・雨宮護・樋野公宏「コンビニエンスストアにおける犯罪発生状況と防犯施策に関する考察 -福岡県警察犯罪予防研究アドバイザー制度を通して」"
+    },
+    {
+      "date": "2015",
+      "description": "地理情報システム学会学術研究発表 ポスターセッション賞：上杉昌也・樋野公宏・矢野桂司「建造環境と犯罪発生の関係に関する都市間比較ジオデモグラフィクスを活用した小地域分析」"
+    },
+    {
+      "date": "2013",
+      "description": "第44回日本緑化工学会大会 ポスター発表（論文部門）最優秀賞：加藤真司・桑沢保夫・石井儀光・樋野公宏・橋本剛・小木曽裕・持田太樹「緑のカーテンの節電効果に関する研究～浜松市内におけるアンケート調査より」"
+    }
+  ],
+  "cv_url": "https://drive.google.com/file/d/1pdW0YgmbvA3imuThNK-f8oAuFPIMNZLb/view?usp=drive_link"
+}
