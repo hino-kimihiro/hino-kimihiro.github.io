@@ -80,7 +80,6 @@ layout: null
 <p class="keywords"><strong>Keywords:</strong> Walkability, Active School Travel (AST), Children's Independent Mobility (CIM)</p>
 <h3>Selected Publications <span lang="ja">／ 関連する主要論文</span></h3>
 <ul class="papers">
-{% assign p = site.data.publications.first_author | where: "id", 2 | first %}{% include research-paper.html paper=p %}
 {% assign p = site.data.publications.coauthor_recent | where: "id", 6 | first %}{% include research-paper.html paper=p %}
 {% assign p = site.data.publications.first_author | where: "id", 1 | first %}{% include research-paper.html paper=p %}
 {% assign p = site.data.publications.first_author | where: "id", 3 | first %}{% include research-paper.html paper=p %}
