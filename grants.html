@@ -16,7 +16,7 @@ layout: null
 .tabs{display:flex;gap:10px;flex-wrap:wrap;margin:26px 0}
 .tabs a{background:#f4f8fb;padding:7px 13px;border-radius:6px;text-decoration:none}
 .projects{list-style:none;margin:12px 0 0;padding:0}
-.projects li{padding:17px 0;border-bottom:1px solid #e7edf2}
+.projects li{padding:12px 0 18px;margin-bottom:12px}
 .project-title{font-weight:650;line-height:1.55;margin-bottom:6px}
 .meta{color:#5a6b78;font-size:14px;line-height:1.7}
 .period{font-variant-numeric:tabular-nums}
@@ -34,20 +34,20 @@ layout: null
 <section id="current">
 <h2>Current Projects <span lang="ja">／ 実施中の研究課題</span></h2>
 <ul class="projects">{% for item in site.data.grants.current %}
-<li><div class="project-title">{{ item.title | escape }}</div><div class="meta"><span class="period">{{ item.period | escape }}年度</span> · {{ item.funder | escape }}{% if item.role %} · {{ item.role | escape }}{% endif %}{% if item.lead and item.role != '研究代表者' %}（研究代表者：{{ item.lead | escape }}）{% endif %}{% if item.kaken %} · <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-{{ item.kaken }}/">KAKEN {{ item.kaken | escape }}</a>{% endif %}</div></li>
+<li><div class="project-title">{{ item.title | escape }}</div><div class="meta"><span class="period">{{ item.period_display | escape }}</span> · {{ item.funder | escape }}{% if item.role %} · {{ item.role | escape }}{% endif %}{% if item.lead and item.role != '研究代表者' %}（研究代表者：{{ item.lead | escape }}）{% endif %}{% if item.kaken %} · <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-{{ item.kaken }}/">KAKEN {{ item.kaken | escape }}</a>{% endif %}</div></li>
 {% endfor %}</ul>
 </section>
 <section id="completed">
 <h2>Completed Projects <span lang="ja">／ 終了した研究課題</span></h2>
 <ul class="projects">{% for item in site.data.grants.completed %}
-<li><div class="project-title">{{ item.title | escape }}</div><div class="meta"><span class="period">{{ item.period | escape }}{% unless item.period contains '.' %}年度{% endunless %}</span> · {{ item.funder | escape }}{% if item.role %} · {{ item.role | escape }}{% endif %}{% if item.lead and item.role != '研究代表者' %}（研究代表者・原資料記載者：{{ item.lead | escape }}）{% endif %}{% if item.kaken %} · <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-{{ item.kaken }}/">KAKEN {{ item.kaken | escape }}</a>{% endif %}{% if item.participants %} · 原資料の共同研究者：{{ item.participants | escape }}{% endif %}{% if item.award %} · <span class="award">受賞：{{ item.award | escape }}</span>{% endif %}</div></li>
+<li><div class="project-title">{{ item.title | escape }}</div><div class="meta"><span class="period">{{ item.period | escape }}</span> · {{ item.funder | escape }}{% if item.role %} · {{ item.role | escape }}{% endif %}{% if item.lead and item.role != '研究代表者' %}{% if item.kaken %}（研究代表者：{{ item.lead | escape }}）{% else %}（関係者：{{ item.lead | escape }}）{% endif %}{% endif %}{% if item.kaken %} · <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-{{ item.kaken }}/">KAKEN {{ item.kaken | escape }}</a>{% endif %}{% if item.participants %} · 共同研究者等：{{ item.participants | escape }}{% endif %}{% if item.award %} · <span class="award">受賞：{{ item.award | escape }}</span>{% endif %}</div></li>
 {% endfor %}</ul>
 </section>
 <section id="bri">
 <h2>Research Projects at the Building Research Institute <span lang="ja">／ 建築研究所での研究課題</span></h2>
-<p class="lead">建築研究所在職中に関わった所内研究課題（重点研究を含む）。</p>
+<p class="lead">建築研究所在職中に関わった所内研究課題（重点研究を含む）</p>
 <ul class="projects">{% for item in site.data.grants.bri %}
-<li><div class="project-title">{{ item.title | escape }}</div><div class="meta"><span class="period">{{ item.period | escape }}年度</span>{% if item.note %} · {{ item.note | escape }}{% endif %}</div></li>
+<li><div class="project-title">{{ item.title | escape }}</div><div class="meta"><span class="period">{{ item.period_display | escape }}</span>{% if item.note %} · {{ item.note | escape }}{% endif %}</div></li>
 {% endfor %}</ul>
 </section>
 </main>
