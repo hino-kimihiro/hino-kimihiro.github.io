@@ -19,6 +19,9 @@ layout: null
 .entries{list-style:none;padding:0}
 .entries li{display:grid;grid-template-columns:145px 1fr;gap:16px;padding:10px 0;border-bottom:1px solid #e8edf1;line-height:1.65}
 .entries .period{color:#52697b;font-variant-numeric:tabular-nums;white-space:nowrap}
+.entries li.secondary{margin-left:30px;grid-template-columns:115px 1fr;border-bottom-color:#f0f3f6}
+.entries li.secondary .period{color:#667d8d}
+@media(max-width:580px){.entries li.secondary{margin-left:18px;grid-template-columns:1fr}}
 .awards{padding-left:26px}
 .awards li{padding:8px 0 10px;border-bottom:1px solid #e8edf1;line-height:1.65}
 .memberships{line-height:1.8}
@@ -32,13 +35,13 @@ layout: null
 <main class="main">
 <a class="back" href="/">← Home</a>
 <h1>About <span lang="ja">／ 略歴</span></h1>
-<p><a class="cv-link" href="{{ site.data.about.cv_url | escape }}">CV in English (PDF)</a></p>
+<p><a class="cv-link" href="{{ site.data.about.cv_url | escape }}">CV in English (PDF)</a> <span class="intro">(9 February 2026)</span></p>
 <nav class="tabs" aria-label="About sections"><a href="#education">Education</a><a href="#experience">Professional Experience</a><a href="#memberships">Memberships</a><a href="#awards">Awards</a></nav>
 <section id="education"><h2>Education <span lang="ja">／ 学歴</span></h2>
 <ul class="entries">{% for item in site.data.about.education %}<li><span class="period">{{ item.year }}</span><span>{{ item.description | escape }}</span></li>{% endfor %}</ul>
 </section>
 <section id="experience"><h2>Professional Experience <span lang="ja">／ 職歴</span></h2>
-<ul class="entries">{% for item in site.data.about.experience %}<li><span class="period">{{ item.period | escape }}</span><span>{{ item.description | escape }}</span></li>{% endfor %}</ul>
+<ul class="entries">{% for item in site.data.about.experience %}<li{% if item.indent %} class="secondary"{% endif %}><span class="period">{{ item.period | escape }}</span><span>{{ item.description | escape }}</span></li>{% endfor %}</ul>
 </section>
 <section id="memberships"><h2>Memberships <span lang="ja">／ 所属学会</span></h2>
 <ul class="memberships">{% for item in site.data.about.memberships %}<li><a href="{{ item.url | escape }}">{{ item.name | escape }}</a> <span lang="en">/ {{ item.english | escape }}</span></li>{% endfor %}</ul>
