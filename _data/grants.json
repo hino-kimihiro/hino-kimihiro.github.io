@@ -49,15 +49,12 @@
       "lead": "樋野公宏",
       "kaken": "24KF0143",
       "kaken_status": "終了",
-      "period_display": "2024–2026年度",
-      "completion_note": "2026年度途中終了"
+      "period_display": "2024–2026年度"
     },
     {
       "title": "包摂都市の形成に向けた知的障がい・精神障がい者の自己成長を促すコミュニティ・ガーデンの運営・空間的特徴の解明",
       "period": "2023–2024",
       "funder": "鹿島学術振興財団",
-      "role": "参加者",
-      "lead": "別所あかね",
       "participants": "別所あかね、横張真、樋野公宏、雨宮護",
       "period_display": "2023–2024年度"
     },
@@ -96,17 +93,17 @@
       "title": "Policing, Public Space, and Democracy",
       "period": "2019.09–2022.03",
       "funder": "PU-Tokyo Strategic Partnership Grants",
-      "role": "参加者",
-      "lead": "渡邉英徳（東大側代表者）",
-      "period_display": "2019.09–2022.03"
+      "lead": "渡邉英徳",
+      "period_display": "2019.09–2022.03",
+      "lead_label": "東大側代表者"
     },
     {
       "title": "新しい「緑農住」まちづくり",
       "period": "2019–2021",
       "funder": "東京都「大学研究者による事業提案制度」",
-      "role": "参加者",
       "lead": "横張真",
-      "period_display": "2019–2021年度"
+      "period_display": "2019–2021年度",
+      "lead_label": "研究代表者"
     },
     {
       "title": "都市の歩行促進要因を踏まえた健康まちづくり支援ツールの開発",
@@ -123,33 +120,31 @@
       "title": "登下校時の安全確保策に関する国際比較研究",
       "period": "2020",
       "funder": "大林財団・国際交流助成",
-      "role": "研究代表者",
-      "lead": "樋野公宏",
-      "period_display": "2020年度"
+      "period_display": "2020年度",
+      "participants": "樋野公宏"
     },
     {
       "title": "戸建住宅地の住環境マネジメント手法の研究開発",
       "period": "2019",
       "funder": "建築研究開発コンソーシアム",
-      "role": "参加者",
       "lead": "上井一哉",
-      "period_display": "2019年度"
+      "period_display": "2019年度",
+      "lead_label": "研究代表者"
     },
     {
       "title": "Exploring Synergies within Volunteering in Law Enforcement and Public Safety in the UK and Japan",
       "period": "2018–2019",
       "funder": "ESRC-AHRC UK-Japan SSH Connections grants",
-      "role": "参加者",
-      "lead": "Matthew Callender (PI)",
-      "period_display": "2018–2019年度"
+      "lead": "Dr Matthew Callender",
+      "period_display": "2018–2019年度",
+      "lead_label": "PI"
     },
     {
       "title": "集合住宅対象侵入窃盗の時空間的近接と地域特性との関係",
       "period": "2017.08–2018.03",
       "funder": "戸田育英財団",
-      "role": "研究代表者",
-      "lead": "樋野公宏",
-      "period_display": "2017.08–2018.03"
+      "period_display": "2017.08–2018.03",
+      "participants": "樋野公宏"
     },
     {
       "title": "発達障害児の危険回避策に関する研究",
@@ -165,8 +160,6 @@
       "title": "遠郊外住宅地におけるオンサイト不動産仲介による近居促進の可能性検討",
       "period": "2016.11–2017.10",
       "funder": "不動産流通経営協会 (FRK)",
-      "role": "参加者",
-      "lead": "樋野公宏・石井儀光・関口達也",
       "participants": "樋野公宏、石井儀光、関口達也",
       "period_display": "2016.11–2017.10"
     },
@@ -194,8 +187,6 @@
       "title": "高経年団地の資源を活用した「居場所」づくりの実践研究",
       "period": "2015–2016",
       "funder": "鹿島学術振興財団",
-      "role": "参加者",
-      "lead": "樋野公宏・浅見泰司・石井儀光・藤井さやか・倉持香苗",
       "participants": "樋野公宏、浅見泰司、石井儀光、藤井さやか、倉持香苗",
       "period_display": "2015–2016年度"
     },
@@ -222,17 +213,17 @@
       "title": "健康長寿を実現する住まいとコミュニティの創造",
       "period": "2012–2015",
       "funder": "JST RISTEX",
-      "role": "参加者",
       "lead": "伊香賀俊治",
-      "period_display": "2012–2015年度"
+      "period_display": "2012–2015年度",
+      "lead_label": "研究代表者"
     },
     {
       "title": "有料老人ホーム等における居住環境と高齢者の健康状態等の関係性に係る調査研究事業",
       "period": "2014",
-      "funder": "厚生労働省・老人保健健康増進等事業",
-      "role": "参加者",
+      "funder": "厚生労働省・老人保健健康増進等事業（老人保健事業推進費等補助金）",
       "lead": "星旦二",
-      "period_display": "2014年度"
+      "period_display": "2014年度",
+      "lead_label": "研究代表者"
     },
     {
       "title": "防犯まちづくり手法による子どもの屋外環境改善プログラムの開発",
@@ -277,17 +268,17 @@
       "title": "計画的な防犯まちづくりの支援システムの構築",
       "period": "2008–2012",
       "funder": "JST RISTEX",
-      "role": "計画策定支援グループリーダー",
       "lead": "山本俊哉",
-      "period_display": "2008–2012年度"
+      "period_display": "2008–2012年度",
+      "lead_label": "研究代表者"
     },
     {
       "title": "学生協働・地場連携による筑波大学キャンパス・リノベーション－グリーン・イノベーションとライフ・イノベーションの融合",
       "period": "2010–2011",
       "funder": "筑波大学革新的研究等支援プログラム",
-      "role": "参加者",
       "lead": "大澤義明",
-      "period_display": "2010–2011年度"
+      "period_display": "2010–2011年度",
+      "lead_label": "研究代表者"
     },
     {
       "title": "防犯人間工学に基づく守りやすい戸建て住宅設計指針の基礎的研究",
@@ -324,8 +315,6 @@
       "title": "地区特性に応じた防犯まちづくりの方向性",
       "period": "2005.07–2006.06",
       "funder": "社会安全研究財団・若手研究助成",
-      "role": "研究代表者",
-      "lead": "樋野公宏",
       "award": "優秀賞",
       "period_display": "2005.07–2006.06"
     },
@@ -343,16 +332,14 @@
       "title": "インターネット地図型情報交流システムによる市民コミュニティ形成に関する研究",
       "period": "2005",
       "funder": "インクリメント・ピー株式会社",
-      "role": "参加者",
       "lead": "真鍋陸太郎",
-      "period_display": "2005年度"
+      "period_display": "2005年度",
+      "lead_label": "代表者"
     },
     {
       "title": "防犯性からみた住民参加による公園管理の効果と展望",
       "period": "2003.07–2004.06",
       "funder": "社会安全研究財団・若手研究助成",
-      "role": "研究代表者",
-      "lead": "樋野公宏",
       "award": "最優秀賞",
       "period_display": "2003.07–2004.06"
     }
