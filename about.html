@@ -1,0 +1,54 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Biography, education, experience, academic memberships and awards of Kimihiro Hino.">
+<title>About | Kimihiro Hino</title>
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+.main{max-width:1040px;margin:auto;padding:38px 28px 76px}
+.main h1{font-size:clamp(30px,4vw,43px);line-height:1.3;color:#193b53;margin-bottom:12px}
+.main h2{margin-top:44px}
+.main h3{font-size:18px;color:#193b53;margin-top:32px}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin:26px 0}
+.tabs a{background:#f4f8fb;padding:7px 13px;border-radius:6px;text-decoration:none}
+.cv-link{display:inline-block;margin:0 0 8px}
+.entries{list-style:none;padding:0}
+.entries li{display:grid;grid-template-columns:145px 1fr;gap:16px;padding:10px 0;border-bottom:1px solid #e8edf1;line-height:1.65}
+.entries .period{color:#52697b;font-variant-numeric:tabular-nums;white-space:nowrap}
+.awards{padding-left:26px}
+.awards li{padding:8px 0 10px;border-bottom:1px solid #e8edf1;line-height:1.65}
+.memberships{line-height:1.8}
+.memberships li{padding:4px 0}
+.back{display:inline-block;margin:20px 0}
+@media(max-width:580px){.entries li{grid-template-columns:1fr;gap:0}.entries .period{font-weight:600}}
+</style>
+</head>
+<body>
+<header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/about.html" aria-current="page">About</a><a href="/news.html">News</a><a href="/publications.html">Articles</a><a href="/lectures.html">Lectures</a><a href="/marathon.html">Marathon</a></nav></div></header>
+<main class="main">
+<a class="back" href="/">← Home</a>
+<h1>About <span lang="ja">／ 略歴</span></h1>
+<p><a class="cv-link" href="{{ site.data.about.cv_url | escape }}">CV in English (PDF)</a></p>
+<nav class="tabs" aria-label="About sections"><a href="#education">Education</a><a href="#experience">Professional Experience</a><a href="#memberships">Memberships</a><a href="#awards">Awards</a></nav>
+<section id="education"><h2>Education <span lang="ja">／ 学歴</span></h2>
+<ul class="entries">{% for item in site.data.about.education %}<li><span class="period">{{ item.year }}</span><span>{{ item.description | escape }}</span></li>{% endfor %}</ul>
+</section>
+<section id="experience"><h2>Professional Experience <span lang="ja">／ 職歴</span></h2>
+<ul class="entries">{% for item in site.data.about.experience %}<li><span class="period">{{ item.period | escape }}</span><span>{{ item.description | escape }}</span></li>{% endfor %}</ul>
+</section>
+<section id="memberships"><h2>Memberships <span lang="ja">／ 所属学会</span></h2>
+<ul class="memberships">{% for item in site.data.about.memberships %}<li><a href="{{ item.url | escape }}">{{ item.name | escape }}</a> <span lang="en">/ {{ item.english | escape }}</span></li>{% endfor %}</ul>
+</section>
+<section id="awards"><h2>Awards <span lang="ja">／ 受賞歴</span></h2>
+<h3>Individual and Lead Awards <span lang="ja">／ 個人・代表としての受賞</span></h3>
+<ol class="awards">{% for item in site.data.about.awards_lead %}<li><strong>{{ item.date | escape }}</strong>　{{ item.description | escape }}</li>{% endfor %}</ol>
+<h3>Collaborative Awards <span lang="ja">／ 共同受賞</span></h3>
+<ol class="awards">{% for item in site.data.about.awards_collaborative %}<li><strong>{{ item.date | escape }}</strong>　{{ item.description | escape }}</li>{% endfor %}</ol>
+</section>
+</main>
+<footer><div class="wrap">© {{ site.time | date: '%Y' }} Kimihiro Hino · The University of Tokyo</div></footer>
+</body></html>
