@@ -17,9 +17,9 @@ layout: null
 .tabs a{background:#f4f8fb;padding:7px 13px;border-radius:6px;text-decoration:none}
 .cv-link{display:inline-block;margin:0 0 8px}
 .entries{list-style:none;padding:0}
-.entries li{display:grid;grid-template-columns:145px 1fr;gap:16px;padding:10px 0;border-bottom:1px solid #e8edf1;line-height:1.65}
+.entries li{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:16px;padding:10px 0;border-bottom:1px solid #e8edf1;line-height:1.65}
 .entries .period{color:#52697b;font-variant-numeric:tabular-nums;white-space:nowrap}
-.entries li.secondary{margin-left:30px;grid-template-columns:115px 1fr;border-bottom-color:#f0f3f6}
+.entries li.secondary{margin-left:30px;border-bottom-color:#f0f3f6}
 .entries li.secondary .period{color:#667d8d}
 @media(max-width:580px){.entries li.secondary{margin-left:18px;grid-template-columns:1fr}}
 .awards{padding-left:26px}
@@ -44,7 +44,7 @@ layout: null
 <ul class="entries">{% for item in site.data.about.experience %}<li{% if item.indent %} class="secondary"{% endif %}><span class="period">{{ item.period | escape }}</span><span>{{ item.description | escape }}</span></li>{% endfor %}</ul>
 </section>
 <section id="memberships"><h2>Memberships <span lang="ja">／ 所属学会</span></h2>
-<ul class="memberships">{% for item in site.data.about.memberships %}<li><a href="{{ item.url | escape }}">{{ item.name | escape }}</a> <span lang="en">/ {{ item.english | escape }}</span></li>{% endfor %}</ul>
+<ul class="memberships">{% for item in site.data.about.memberships %}<li><a href="{{ item.url | escape }}">{{ item.name | escape }}</a> {% if item.english and item.english != item.name %}<span lang="en">/ {{ item.english | escape }}</span>{% endif %}</li>{% endfor %}</ul>
 </section>
 <section id="awards"><h2>Awards <span lang="ja">／ 受賞歴</span></h2>
 <h3>Individual and Lead Awards <span lang="ja">／ 個人・代表としての受賞</span></h3>
