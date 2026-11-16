@@ -42,12 +42,11 @@ layout: null
 <ol class="bibliography">
 {% for item in site.data.books_reports.books %}
 {% if item.category == kind %}
-<li>{{ item.citation | escape }}{% if item.url %}<a class="external" href="{{ item.url | escape }}">出版社・書籍情報</a>{% endif %}
+<li>{{ item.citation | escape }}{% if item.url %}<a class="external" href="{{ item.url | escape }}">出版社・書籍情報</a>{% endif %}{% for link in item.more_links %}<a class="external" href="{{ link.url | escape }}">{{ link.label | escape }}</a>{% endfor %}
 {% if item.award %} <span class="award">（{{ item.award | escape }}）</span>{% endif %}
-{% if item.details or item.more_links %}
+{% if item.details %}
 <ul class="details">
 {% for detail in item.details %}<li>{{ detail | escape }}</li>{% endfor %}
-{% for link in item.more_links %}<li><a href="{{ link.url | escape }}">{{ link.label | escape }}</a></li>{% endfor %}
 </ul>
 {% endif %}
 </li>
