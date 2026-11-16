@@ -1,0 +1,80 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Essays, magazine articles and columns by Kimihiro Hino from 2004 onward.">
+<title>Essays | 雑誌論文・寄稿 | Kimihiro Hino</title>
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+.main{max-width:1030px;margin:auto;padding:38px 28px 76px}
+.main h1{font-size:clamp(28px,4vw,43px);line-height:1.3;color:#193b53}
+.intro{color:#5a6975;font-size:14px}
+.tabs{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}
+.tabs a{background:#f4f8fb;padding:7px 13px;border-radius:6px;text-decoration:none}
+.bibliography{padding-left:28px}
+.bibliography li{padding:9px 0 13px;line-height:1.65;border-bottom:1px solid #e8edf1;overflow-wrap:anywhere}
+.year-heading{font-size:17px;margin:29px 0 6px;color:#193b53}
+.external{font-size:13px;margin-left:8px;white-space:nowrap}
+.editor-note{font-size:13px;color:#60717c}
+.series-list{list-style:none;margin:0;padding:0}
+.series-list li{padding:9px 0;border-bottom:1px solid #e8edf1}
+.back{display:inline-block;margin:20px 0}
+</style>
+</head>
+<body>
+<header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/about.html">About</a><a href="/news.html">News</a><a href="/publications.html">Articles</a><a href="/lectures.html">Lectures</a><a href="/teaching.html">Teaching</a><a href="/essays.html" aria-current="page">Essays</a><a href="/grants.html">Grants</a><a href="/marathon.html">Marathon</a></nav></div></header>
+<main class="main">
+<a class="back" href="/">← Home</a>
+<h1>Essays <span lang="ja">／ 雑誌論文・寄稿</span></h1>
+<p class="intro">雑誌・新聞等への寄稿、解説、コラムなど。全130編。※は特集の編集担当を表します。</p>
+<nav class="tabs" aria-label="Essays sections">
+<a href="#recent">2020年以降（{{ site.data.essays_2020.size }}）</a>
+<a href="#middle">2014–2019年（{{ site.data.essays_2014.size }}）</a>
+<a href="#early">2013年以前（{{ site.data.essays_2013.size }}）</a>
+<a href="#series">Series｜連載</a>
+</nav>
+<section id="recent">
+<h2>2020年以降 <span class="intro">（{{ site.data.essays_2020.size }}編）</span></h2>
+{% assign last_year = 0 %}
+{% for item in site.data.essays_2020 %}
+{% if item.year != last_year %}{% unless forloop.first %}</ol>{% endunless %}<h3 class="year-heading">{{ item.year }}年</h3><ol class="bibliography">{% assign last_year = item.year %}{% endif %}
+<li id="essay-recent-{{ item.source_index }}">{{ item.citation | escape }}{% if item.editor %} <span class="editor-note">※</span>{% endif %}{% if item.url %}<a class="external" href="{{ item.url | escape }}">本文・関連資料</a>{% endif %}</li>
+{% if forloop.last %}</ol>{% endif %}
+{% endfor %}
+</section>
+<section id="middle">
+<h2>2014–2019年 <span class="intro">（{{ site.data.essays_2014.size }}編）</span></h2>
+{% assign last_year = 0 %}
+{% for item in site.data.essays_2014 %}
+{% if item.year != last_year %}{% unless forloop.first %}</ol>{% endunless %}<h3 class="year-heading">{{ item.year }}年</h3><ol class="bibliography">{% assign last_year = item.year %}{% endif %}
+<li id="essay-middle-{{ item.source_index }}">{{ item.citation | escape }}{% if item.editor %} <span class="editor-note">※</span>{% endif %}{% if item.url %}<a class="external" href="{{ item.url | escape }}">本文・関連資料</a>{% endif %}</li>
+{% if forloop.last %}</ol>{% endif %}
+{% endfor %}
+</section>
+<section id="early">
+<h2>2013年以前 <span class="intro">（{{ site.data.essays_2013.size }}編）</span></h2>
+{% assign last_year = 0 %}
+{% for item in site.data.essays_2013 %}
+{% if item.year != last_year %}{% unless forloop.first %}</ol>{% endunless %}<h3 class="year-heading">{{ item.year }}年</h3><ol class="bibliography">{% assign last_year = item.year %}{% endif %}
+<li id="essay-early-{{ item.source_index }}">{{ item.citation | escape }}{% if item.editor %} <span class="editor-note">※</span>{% endif %}{% if item.url %}<a class="external" href="{{ item.url | escape }}">本文・関連資料</a>{% endif %}</li>
+{% if forloop.last %}</ol>{% endif %}
+{% endfor %}
+</section>
+<section id="series">
+<h2>Series <span lang="ja">／ 連載</span></h2>
+<p class="intro">各記事は上の年別一覧にも掲載しています。</p>
+<ul class="series-list">
+<li><strong>英国の防犯関連ボランティアのいま</strong>（2020–2021年・全6回、月刊安全な街に）<a class="external" href="#essay-recent-40">年別一覧へ</a><div class="intro">各回へのPDFリンクあり。</div></li>
+<li><strong>プラス防犯のすすめ</strong>（2016–2017年・全12回、月刊安全な街に）<a class="external" href="#essay-middle-10">年別一覧へ</a></li>
+<li><strong>防犯まちづくりの新視点</strong>（2005–2006年・全6回、新都市）<a class="external" href="https://www.kenken.go.jp/japanese/research/hou/topics/bouhan/index.html">建築研究所の連載公開ページ</a><a class="external" href="#essay-early-38">年別一覧へ</a><div class="intro">建築研究所の公開ページに全6回のPDFがあります。</div></li>
+<li><strong>『家庭と防犯』の地域防犯活動紹介</strong>（2025–2026年・10編）<a class="external" href="#essay-recent-3">年別一覧へ</a><div class="intro">旧ページでは独立した連載名の記載がないため、同誌掲載記事としてまとめています。</div></li>
+</ul>
+</section>
+<p class="intro">『住宅』掲載記事の転載は日本住宅協会のご厚意によるものです。</p>
+</main>
+<footer><div class="wrap">© {{ site.time | date: '%Y' }} Kimihiro Hino · The University of Tokyo</div></footer>
+</body>
+</html>
