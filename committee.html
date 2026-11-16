@@ -32,7 +32,7 @@ layout: null
 {% for item in items %}
 <li>{{ item.text | escape }}{% for link in item.links %}<a class="committee-link" href="{{ link.url | escape }}">{{ link.label | escape }}</a>{% endfor %}
 {% if item.children.size > 0 %}<ul class="committee-children">{% for child in item.children %}
-<li>{% if child.relation == "predecessor" %}<span class="committee-relation">先行する検討会：</span>{% elsif child.relation == "related" %}<span class="committee-relation">関連するヒアリング：</span>{% elsif child.relation == "special_issues" %}<span class="committee-relation">担当特集：</span>{% endif %}<span{% if child.relation == "special_issues" %} class="committee-special"{% endif %}>{{ child.text | escape }}</span></li>
+<li>{% if child.relation == "special_issues" %}<span class="committee-relation">担当特集：</span>{% endif %}<span{% if child.relation == "special_issues" %} class="committee-special"{% endif %}>{{ child.text | escape }}</span></li>
 {% endfor %}</ul>{% endif %}
 </li>
 {% endfor %}
