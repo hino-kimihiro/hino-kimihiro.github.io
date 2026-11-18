@@ -13,12 +13,8 @@ layout: null
 <body>
 <header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/about.html">About</a><a href="/research.html">Research</a><a href="#news">News</a><a href="#profiles">Profiles</a><a href="/publications.html">Publications</a><a href="/lectures.html">Lectures</a><a href="/teaching.html">Teaching</a><a href="/essays.html">Essays</a><a href="/books.html">Books</a><a href="/committee.html">Committee</a><a href="/grants.html">Grants</a><a href="/marathon.html">Marathon</a></nav></div></header>
 <main>
-<section class="hero"><div class="wrap"><p class="kicker">Academic website</p><h1>Kimihiro Hino</h1><p class="jpname">樋野 公宏</p><p class="position">Professor, Department of Urban Engineering<br>Graduate School of Engineering, The University of Tokyo</p><p class="jpaffil">東京大学大学院<a href="https://www.due.t.u-tokyo.ac.jp/">工学系研究科 都市工学専攻</a> 教授 ｜ 博士（工学） | Ph.D.</p></div></section>
+<section class="hero"><div class="wrap"><h1>Kimihiro Hino</h1><p class="jpname">樋野 公宏</p><p class="position">Professor, <a href="https://www.due.t.u-tokyo.ac.jp/">Department of Urban Engineering</a>,<br>Graduate School of Engineering, The University of Tokyo</p><p class="jpaffil">東京大学大学院工学系研究科 都市工学専攻 教授 ｜ 博士（工学） | Ph.D.<br><a href="https://www.crei.e.u-tokyo.ac.jp/">東京大学 不動産イノベーション研究センター</a><br><a href="https://dss.csis.u-tokyo.ac.jp/">東京大学 デジタル空間社会連携研究機構</a></p></div></section>
 <div class="wrap layout"><div>
-<section id="roles"><h2>Affiliations &amp; Roles <span lang="ja">／ 所属・兼職</span></h2><ul class="line-list">
-<li><a href="https://www.crei.e.u-tokyo.ac.jp/">Center for Real Estate Innovation (CREI)</a><span class="translation">東京大学 不動産イノベーション研究センター</span></li>
-<li><a href="https://dss.csis.u-tokyo.ac.jp/">Collaborative Research Organization for the Digital Spatial Society</a><span class="translation">東京大学 デジタル空間社会連携研究機構</span></li>
-</ul></section>
 <section id="news"><div class="section-heading"><h2>News <span lang="ja">／ お知らせ</span></h2></div><ul class="line-list news-list">
 {% for item in site.data.news limit:3 %}
 <li><time class="date"{% if item.date.size == 10 %} datetime="{{ item.date }}"{% endif %}>{{ item.display_date | default: item.date }}</time>{% if item.url %}<a href="{{ item.url | escape }}">{{ item.title | escape }}</a>{% else %}{{ item.title | escape }}{% endif %}</li>
