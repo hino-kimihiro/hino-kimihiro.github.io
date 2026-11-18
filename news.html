@@ -3,7 +3,7 @@ layout: null
 ---
 <!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="News archive of Kimihiro Hino"><title>News | Kimihiro Hino</title><link rel="stylesheet" href="/assets/style.css"></head>
-<body><header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/about.html">About</a><a href="/news.html" aria-current="page">News</a><a href="/publications.html">Articles</a><a href="/lectures.html">Lectures</a><a href="/teaching.html">Teaching</a><a href="/essays.html">Essays</a><a href="/books.html">Books</a><a href="/committee.html">Committee</a><a href="/grants.html">Grants</a><a href="/marathon.html">Marathon</a></nav></div></header>
+<body><header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/about.html">About</a><a href="/research.html">Research</a><a href="/publications.html">Articles</a><a href="/lectures.html">Lectures</a><a href="/essays.html">Essays</a><a href="/books.html">Books</a><a href="/committee.html">Committee</a></nav></div></header>
 <main class="wrap archive"><p class="kicker">Archive</p><h1>News <span lang="ja">／ お知らせ</span></h1><p class="intro">過去のお知らせを新しい順に掲載しています。</p><ul class="line-list news-list">
 {% for item in site.data.news %}
 <li><time class="date"{% if item.date.size == 10 %} datetime="{{ item.date }}"{% endif %}>{{ item.display_date | default: item.date }}</time>{% if item.url %}<a href="{{ item.url | escape }}">{{ item.title | escape }}</a>{% else %}{{ item.title | escape }}{% endif %}</li>
