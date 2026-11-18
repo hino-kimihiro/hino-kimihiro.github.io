@@ -29,10 +29,17 @@ layout: null
 .prospective h2{margin:0 0 12px;border:0;padding:0}
 .prospective p:last-child{margin-bottom:0}
 @media(max-width:600px){.main{padding:26px 20px 60px}.prospective{padding:16px 18px}}
+.projects{list-style:none;margin:12px 0 0;padding:0}
+.projects li{padding:12px 0 18px;margin-bottom:12px}
+.project-title{font-weight:650;line-height:1.55;margin-bottom:6px}
+.meta{color:#5a6b78;font-size:14px;line-height:1.7}
+.period{font-variant-numeric:tabular-nums}
+.award{font-weight:650}
+.grant-links{display:flex;gap:14px;flex-wrap:wrap;font-size:14px;margin:15px 0 24px}
 </style>
 </head>
 <body>
-<header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/about.html">About</a><a href="/research.html" aria-current="page">Research</a><a href="/news.html">News</a><a href="/publications.html">Articles</a><a href="/lectures.html">Lectures</a><a href="/marathon.html">Marathon</a></nav></div></header>
+<header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/about.html">About</a><a href="/research.html" aria-current="page">Research</a><a href="/publications.html">Articles</a><a href="/lectures.html">Lectures</a><a href="/essays.html">Essays</a><a href="/books.html">Books</a><a href="/committee.html">Committee</a></nav></div></header>
 <main class="main">
 <a class="back" href="/">← Home</a>
 <h1>Research Interests <span lang="ja">／ 研究テーマ</span></h1>
@@ -86,6 +93,29 @@ layout: null
 </ul>
 </section>
 <p><a href="/publications.html">All Articles &amp; Presentations / 業績一覧 →</a></p>
+<section id="grants"><h2>Research Projects &amp; Grants <span lang="ja">／ 研究課題・研究費</span></h2>
+<p>研究代表・分担・参加した研究課題を掲載しています。研究期間は原則として年度表示です。科研費の詳細は <a href="{{ site.data.grants.kaken_profile | escape }}">KAKEN 研究者ページ</a>をご参照ください。</p>
+<nav class="grant-links" aria-label="Research grants sections"><a href="#grant-current">Current Projects</a><a href="#grant-completed">Completed Projects</a><a href="#grant-bri">Building Research Institute</a></nav>
+<section id="grant-current">
+<h3>Current Projects <span lang="ja">／ 実施中の研究課題</span></h3>
+<ul class="projects">{% for item in site.data.grants.current %}
+<li><div class="project-title">{{ item.title | escape }}</div><div class="meta"><span class="period">{{ item.period_display | escape }}</span> · {{ item.funder | escape }}{% if item.role %} · {{ item.role | escape }}{% endif %}{% if item.lead and item.role != '研究代表者' %}（研究代表者：{{ item.lead | escape }}）{% endif %}{% if item.kaken %} · <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-{{ item.kaken }}/">KAKEN {{ item.kaken | escape }}</a>{% endif %}</div></li>
+{% endfor %}</ul>
+</section>
+<section id="grant-completed">
+<h3>Completed Projects <span lang="ja">／ 終了した研究課題</span></h3>
+<ul class="projects">{% for item in site.data.grants.completed %}
+<li><div class="project-title">{{ item.title | escape }}</div><div class="meta"><span class="period">{{ item.period_display | escape }}</span> · {{ item.funder | escape }}{% if item.role %} · {{ item.role | escape }}{% endif %}{% if item.lead_label %} · {{ item.lead_label | escape }}：{{ item.lead | escape }}{% elsif item.lead and item.role != '研究代表者' and item.kaken %}（研究代表者：{{ item.lead | escape }}）{% endif %}{% if item.kaken %} · <a href="https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-{{ item.kaken }}/">KAKEN {{ item.kaken | escape }}</a>{% endif %}{% if item.participants %} · 研究メンバー：{{ item.participants | escape }}{% endif %}{% if item.award %} · <span class="award">{{ item.award | escape }}受賞</span>{% endif %}</div></li>
+{% endfor %}</ul>
+</section>
+<section id="grant-bri">
+<h3>Research Projects at the Building Research Institute <span lang="ja">／ 建築研究所での研究課題</span></h3>
+<p class="lead">建築研究所在職中に関わった所内研究課題（重点研究を含む）</p>
+<ul class="projects">{% for item in site.data.grants.bri %}
+<li><div class="project-title">{{ item.title | escape }}</div><div class="meta"><span class="period">{{ item.period_display | escape }}</span>{% if item.note %} · {{ item.note | escape }}{% endif %}</div></li>
+{% endfor %}</ul>
+</section>
+</section>
 </main>
 <footer><div class="wrap">© {{ site.time | date: '%Y' }} Kimihiro Hino · The University of Tokyo</div></footer>
 </body>
