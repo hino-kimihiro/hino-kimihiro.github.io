@@ -1,3 +1,4 @@
+
 ---
 layout: null
 ---
@@ -9,11 +10,60 @@ layout: null
 <meta name="description" content="Academic website of Kimihiro Hino, Professor of Urban Engineering, The University of Tokyo.">
 <title>Kimihiro Hino | 樋野公宏</title>
 <link rel="stylesheet" href="/assets/style.css">
+<style>
+.name-email {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 0 24px;
+}
+.name-email .jpname {
+  margin: 0;
+}
+.email-image {
+  display: block;
+  height: 28px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+</style>
 </head>
 <body>
-<header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/about.html">About</a><a href="/research.html">Research</a><a href="/publications.html">Articles</a><a href="/lectures.html">Lectures</a><a href="/essays.html">Essays</a><a href="/books.html">Books</a><a href="/committee.html">Committee</a></nav></div></header>
+<header>
+  <div class="wrap head">
+    <a class="brand" href="/">Kimihiro Hino / 樋野公宏</a>
+    <nav aria-label="Main navigation">
+      <a href="/about.html">About</a>
+      <a href="/research.html">Research</a>
+      <a href="/publications.html">Articles</a>
+      <a href="/lectures.html">Lectures</a>
+      <a href="/essays.html">Essays</a>
+      <a href="/books.html">Books</a>
+      <a href="/committee.html">Committee</a>
+    </nav>
+  </div>
+</header>
 <main>
-<section class="hero"><div class="wrap"><h1>Kimihiro Hino</h1><p class="jpname">樋野 公宏</p><p class="position">Professor, <a href="https://www.due.t.u-tokyo.ac.jp/">Department of Urban Engineering</a>,<br>Graduate School of Engineering, The University of Tokyo</p><p class="jpaffil">東京大学大学院工学系研究科 都市工学専攻 教授 ｜ 博士（工学） Ph.D.<br><a href="https://www.crei.e.u-tokyo.ac.jp/">Center for Real Estate Innovation (CREI)</a> | 不動産イノベーション研究センター<br><a href="https://dss.csis.u-tokyo.ac.jp/">Collaborative Research Organization for the Digital Spatial Society</a> | デジタル空間社会連携研究機構</p></div></section>
+<section class="hero">
+  <div class="wrap">
+    <h1>Kimihiro Hino</h1>
+    <div class="name-email">
+      <span class="jpname">樋野 公宏</span>
+      <img src="/email.png" alt="Email address" class="email-image">
+    </div>
+    <p class="position">
+      Professor, <a href="https://www.due.t.u-tokyo.ac.jp/">Department of Urban Engineering</a>,<br>
+      Graduate School of Engineering, The University of Tokyo
+    </p>
+    <p class="jpaffil">
+      東京大学大学院工学系研究科 都市工学専攻 教授 ｜ 博士（工学） Ph.D.<br>
+      <a href="https://www.crei.e.u-tokyo.ac.jp/">Center for Real Estate Innovation (CREI)</a> | 不動産イノベーション研究センター<br>
+      <a href="https://dss.csis.u-tokyo.ac.jp/">Collaborative Research Organization for the Digital Spatial Society</a> | デジタル空間社会連携研究機構
+    </p>
+  </div>
+</section>
 <div class="wrap layout"><div>
 <section id="news"><div class="section-heading"><h2>News <span lang="ja">／ お知らせ</span></h2></div><ul class="line-list news-list">
 {% for item in site.data.news limit:3 %}
