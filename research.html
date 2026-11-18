@@ -35,7 +35,7 @@ layout: null
 .meta{color:#5a6b78;font-size:14px;line-height:1.7}
 .period{font-variant-numeric:tabular-nums}
 .award{font-weight:650}
-.grant-links{display:flex;gap:14px;flex-wrap:wrap;font-size:14px;margin:15px 0 24px}
+
 </style>
 </head>
 <body>
@@ -55,7 +55,7 @@ layout: null
 <p class="ja" lang="ja">都市環境および住環境と、人々の行動や生活の質との関係を明らかにし、より安全で健康的なまちづくりに貢献することを目指しています。主な研究領域は、住環境、都市防犯、健康まちづくりの3つです。地理空間データや人々の行動データを用いた定量分析を中心に、現地調査や地域での実践も重視しています。</p>
 <p class="en" lang="en">My research examines the relationships between the built environment, human behavior, and well-being, with the aim of contributing to safer and healthier cities. My three main research areas are residential environments, urban crime prevention, and healthy cities. I primarily use quantitative methods, including geospatial and human mobility data analysis, while also emphasizing fieldwork and practical applications in local communities.</p>
 </section>
-<nav class="tabs" aria-label="Research areas"><a href="#residential">Residential Environment</a><a href="#crime">Crime Prevention</a><a href="#healthy">Healthy Cities</a></nav>
+<nav class="tabs" aria-label="Research areas"><a href="#residential">Residential Environment</a><a href="#crime">Crime Prevention</a><a href="#healthy">Healthy Cities</a><a href="#grants">Research Projects &amp; Grants</a></nav>
 <section id="residential">
 <h2>Residential Environment <span lang="ja">／ 住環境</span></h2>
 <p class="ja" lang="ja">人口減少や高齢化が進むなかで、住宅地の持続可能性と居住者の生活の質を高めるための研究に取り組んでいます。特に、高経年住宅団地の再生、空き家問題、生活利便施設へのアクセス、地域コミュニティや社会参加に関心があります。高島平団地（板橋区）などを対象に、居住者が住み続けられるとともに、新たな世代にも選ばれる住宅地のあり方を探っています。</p>
@@ -95,7 +95,7 @@ layout: null
 <p><a href="/publications.html">All Articles &amp; Presentations / 業績一覧 →</a></p>
 <section id="grants"><h2>Research Projects &amp; Grants <span lang="ja">／ 研究課題・研究費</span></h2>
 <p>研究代表・分担・参加した研究課題を掲載しています。研究期間は原則として年度表示です。科研費の詳細は <a href="{{ site.data.grants.kaken_profile | escape }}">KAKEN 研究者ページ</a>をご参照ください。</p>
-<nav class="grant-links" aria-label="Research grants sections"><a href="#grant-current">Current Projects</a><a href="#grant-completed">Completed Projects</a><a href="#grant-bri">Building Research Institute</a></nav>
+<nav class="tabs" aria-label="Research grants sections"><a href="#grant-current">Current Projects</a><a href="#grant-completed">Completed Projects</a><a href="#grant-bri">Building Research Institute</a></nav>
 <section id="grant-current">
 <h3>Current Projects <span lang="ja">／ 実施中の研究課題</span></h3>
 <ul class="projects">{% for item in site.data.grants.current %}
