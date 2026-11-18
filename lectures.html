@@ -5,7 +5,7 @@ layout: null
 <html lang="ja">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Invited lectures and academic talks by Kimihiro Hino.">
+<meta name="description" content="University teaching, invited lectures and academic talks by Kimihiro Hino.">
 <title>Lectures | Kimihiro Hino</title>
 <link rel="stylesheet" href="/assets/style.css">
 <style>
@@ -19,19 +19,57 @@ layout: null
 .main h3{font-size:17px;color:#193b53;margin:26px 0 5px}
 .back{display:inline-block;margin:20px 0}
 .intro{color:#697783;font-size:14px}
+.course-list{list-style:none;margin:0;padding:0}
+.course-list li{padding:9px 0;border-bottom:1px solid #e8edf1;line-height:1.65}
+.note{color:#5a6975;font-size:14px}
+#teaching>section h2{font-size:17px;margin-top:28px}
+#teaching>section h3{font-size:15px}
 </style>
 </head>
 <body>
-<header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/about.html">About</a><a href="/news.html">News</a><a href="/publications.html">Articles</a><a href="/lectures.html" aria-current="page">Lectures</a><a href="/teaching.html">Teaching</a><a href="/essays.html">Essays</a><a href="/books.html">Books</a><a href="/committee.html">Committee</a><a href="/grants.html">Grants</a><a href="/marathon.html">Marathon</a></nav></div></header>
+<header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/about.html">About</a><a href="/research.html">Research</a><a href="/publications.html">Articles</a><a href="/lectures.html" aria-current="page">Lectures</a><a href="/essays.html">Essays</a><a href="/books.html">Books</a><a href="/committee.html">Committee</a></nav></div></header>
 <main class="main">
 <a class="back" href="/">← Home</a>
-<h1>Invited Lectures <span lang="ja">／ 招待講演</span></h1>
-<p>2009年以降の招待講演・講演記録</p>
+<h1>Lectures <span lang="ja">／ 講義・講演</span></h1>
+<p>大学での担当授業、および2009年以降の招待講演・講演記録</p>
 <p class="intro">多数のご依頼を頂戴し有難うございます。原則として単発の一般向け講演はお断りしています。ご了承ください。</p>
 <nav class="tabs" aria-label="Lecture categories">
+<a href="#teaching">Teaching</a>
 <a href="#academic">Academic Lectures ({{ site.data.lectures_academic_all.size }})</a>
 <a href="#public">Public and Professional Lectures ({{ site.data.lectures_public_professional.size }})</a>
 </nav>
+<section id="teaching">
+<h2>Teaching <span lang="ja">／ 大学教育</span></h2>
+<section id="courses">
+<h2>Courses <span lang="ja">／ 講義</span></h2>
+<h3>Undergraduate <span lang="ja">／ 学部講義</span></h3>
+<ul class="course-list">
+<li>都市居住概論（2年A） <span class="note">2024年3月 工学部 Best Teaching Award</span></li>
+<li>社会調査法（2年A）</li>
+<li>地区の計画とデザイン（4年S）</li>
+<li>都市解析（4年S）</li>
+</ul>
+<h3>Graduate <span lang="ja">／ 大学院講義</span></h3>
+<ul class="course-list">
+<li>都市居住特論（隔年S）</li>
+<li>空間計画理論（隔年A）</li>
+</ul>
+</section>
+<section id="studio">
+<h2>Studio Works <span lang="ja">／ 演習</span></h2>
+<ul class="course-list">
+<li>GISの操作法習熟と利用（2年A）</li>
+<li>地区開発計画（3年S）</li>
+<li>都市圏の計画（3年A）</li>
+<li>地区の計画とデザイン（4年S）</li>
+</ul>
+</section>
+<section id="seminars">
+<h2>Seminars <span lang="ja">／ 輪講</span></h2>
+<p>輪講のテーマ、活動記録、成果物等は、研究室ウェブサイトに掲載しています。</p>
+<p><a href="https://ua.t.u-tokyo.ac.jp/research/journal-club/">住宅・都市解析研究室：輪講 / Seminar</a></p>
+</section>
+</section>
 <section id="academic">
 <h2>Academic Lectures <span lang="ja">／ 学術講演</span></h2>
 {% assign academic_years = site.data.lectures_academic_all | group_by_exp: "item", "item.date | slice: 0, 4" %}
