@@ -83,7 +83,7 @@ layout: null
 {% assign public_years = site.data.lectures_public_professional | group_by_exp: "item", "item.date | slice: 0, 4" %}
 {% for yr in public_years %}
 <h3>{{ yr.name }}</h3>
-<ol class="bibliography">{% for item in yr.items %}<li>{{ item.citation | escape }}</li>{% endfor %}</ol>
+<ol class="bibliography">{% for item in yr.items %}<li>{{ item.citation | escape }}{% if item.url %} <a href="{{ item.url | escape }}">動画</a>{% endif %}</li>{% endfor %}</ol>
 {% endfor %}
 </section>
 </main><footer><div class="wrap">© {{ site.time | date: '%Y' }} Kimihiro Hino · The University of Tokyo</div></footer>
