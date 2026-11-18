@@ -31,7 +31,7 @@ layout: null
 </style>
 </head>
 <body>
-<header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/about.html" aria-current="page">About</a><a href="/news.html">News</a><a href="/publications.html">Articles</a><a href="/lectures.html">Lectures</a><a href="/teaching.html">Teaching</a><a href="/essays.html">Essays</a><a href="/books.html">Books</a><a href="/committee.html">Committee</a><a href="/grants.html">Grants</a><a href="/marathon.html">Marathon</a></nav></div></header>
+<header><div class="wrap head"><a class="brand" href="/">Kimihiro Hino / 樋野公宏</a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/about.html" aria-current="page">About</a><a href="/research.html">Research</a><a href="/publications.html">Articles</a><a href="/lectures.html">Lectures</a><a href="/essays.html">Essays</a><a href="/books.html">Books</a><a href="/committee.html">Committee</a></nav></div></header>
 <main class="main">
 <a class="back" href="/">← Home</a>
 <h1>About <span lang="ja">／ 略歴</span></h1>
@@ -52,6 +52,7 @@ layout: null
 <h3>Collaborative Awards <span lang="ja">／ 共同受賞</span></h3>
 <ol class="awards">{% for item in site.data.about.awards_collaborative %}<li><strong>{{ item.date | escape }}</strong>　{{ item.description | escape }}</li>{% endfor %}</ol>
 </section>
+<p class="archive-link"><a href="/marathon.html">Marathon / マラソン記録 →</a></p>
 </main>
 <footer><div class="wrap">© {{ site.time | date: '%Y' }} Kimihiro Hino · The University of Tokyo</div></footer>
 </body></html>
